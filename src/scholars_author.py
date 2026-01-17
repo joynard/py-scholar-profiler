@@ -1,6 +1,7 @@
 import json
 import sys
 from serpapi import GoogleSearch
+from config import SERPAPI_API
 
 penulis = sys.argv[1]
 # print(penulis)
@@ -8,7 +9,7 @@ params = {
   "engine": "google_scholar",
   "q": penulis,
   "hl": "en",
-  "api_key": "90a0bdcb0dc14fe26c23bf7fe14974eacc21230f4c40eb9f59523bf712d468dd"
+  "api_key": SERPAPI_API
 }
 
 search = GoogleSearch(params)
