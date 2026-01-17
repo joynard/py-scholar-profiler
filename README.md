@@ -1,7 +1,7 @@
-# Py Scholar Profiler
+# Py-PHP Scholar Profiler
 
 Google Scholar Author Profile Crawler with Cosine Similarity Ranking
-*(Python + SerpAPI)*
+*(Python-PHP + SerpAPI)*
 
 ## Overview
 
