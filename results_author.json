@@ -1,0 +1,592 @@
+{
+    "search_metadata": {
+        "id": "696b4d6969819dc0f812bf96",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/3582ea8c084926fb/696b4d6969819dc0f812bf96.json",
+        "created_at": "2026-01-17 08:50:49 UTC",
+        "processed_at": "2026-01-17 08:50:49 UTC",
+        "google_scholar_url": "https://scholar.google.com/scholar?q=Nur+Iriawan&hl=en",
+        "raw_html_file": "https://serpapi.com/searches/3582ea8c084926fb/696b4d6969819dc0f812bf96.html",
+        "total_time_taken": 0.33
+    },
+    "search_parameters": {
+        "engine": "google_scholar",
+        "q": "Nur Iriawan",
+        "hl": "en"
+    },
+    "search_information": {
+        "organic_results_state": "Results for exact spelling",
+        "total_results": 1510,
+        "time_taken_displayed": 0.06,
+        "query_displayed": "Nur Iriawan"
+    },
+    "profiles": {
+        "title": "User profiles for Nur Iriawan",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Nur+Iriawan&hl=en&oi=ao",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=Nur+Iriawan",
+        "authors": [
+            {
+                "name": "Nur Iriawan",
+                "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=ao",
+                "serpapi_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en",
+                "author_id": "0xGypiwAAAAJ",
+                "affiliations": "Statistics Department - Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia",
+                "email": "Verified email at statistika.its.ac.id",
+                "cited_by": 1810
+            }
+        ]
+    },
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "UNet-VGG16 with transfer learning for MRI-based brain tumor segmentation",
+            "result_id": "PaA-kpQj7TQJ",
+            "link": "https://www.telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/14753",
+            "snippet": "A brain tumor is one of a deadly disease that needs high accuracy in its medical surgery. Brain tumor detection can be done through magnetic resonance imaging (MRI). Image …",
+            "publication_info": {
+                "summary": "AA Pravitasari, N Iriawan, M Almuhayar… - TELKOMNIKA …, 2020 - telkomnika.uad.ac.id",
+                "authors": [
+                    {
+                        "name": "AA Pravitasari",
+                        "link": "https://scholar.google.com/citations?user=cJKymqwAAAAJ&hl=en&oi=sra",
+                        "author_id": "cJKymqwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=cJKymqwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "M Almuhayar",
+                        "link": "https://scholar.google.com/citations?user=B7QTBlcAAAAJ&hl=en&oi=sra",
+                        "author_id": "B7QTBlcAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=B7QTBlcAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "uad.ac.id",
+                    "file_format": "PDF",
+                    "link": "https://www.telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/viewFile/14753/8142"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=PaA-kpQj7TQJ",
+                "cited_by": {
+                    "total": 202,
+                    "link": "https://scholar.google.com/scholar?cites=3813743580468387901&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "3813743580468387901",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=3813743580468387901&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:PaA-kpQj7TQJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3APaA-kpQj7TQJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 11,
+                    "link": "https://scholar.google.com/scholar?cluster=3813743580468387901&hl=en&as_sdt=0,10",
+                    "cluster_id": "3813743580468387901",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=3813743580468387901&engine=google_scholar&hl=en"
+                },
+                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:PaA-kpQj7TQJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+            }
+        },
+        {
+            "position": 2,
+            "title": "YOLO‐UNet Architecture for Detecting and Segmenting the Localized MRI Brain Tumor Image",
+            "result_id": "FeSDZqLH7ccJ",
+            "link": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3819801",
+            "snippet": "Brain tumor detection and segmentation are the main issues in biomedical engineering research fields, and it is always challenging due to its heterogeneous shape and location in MRI. …",
+            "publication_info": {
+                "summary": "N Iriawan, AA Pravitasari, US Nuraini… - … Intelligence and Soft …, 2024 - Wiley Online Library",
+                "authors": [
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "AA Pravitasari",
+                        "link": "https://scholar.google.com/citations?user=cJKymqwAAAAJ&hl=en&oi=sra",
+                        "author_id": "cJKymqwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=cJKymqwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "US Nuraini",
+                        "link": "https://scholar.google.com/citations?user=q-sbahIAAAAJ&hl=en&oi=sra",
+                        "author_id": "q-sbahIAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=q-sbahIAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "wiley.com",
+                    "file_format": "PDF",
+                    "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/3819801"
+                },
+                {
+                    "title": "Full View",
+                    "link": "https://scholar.google.com/scholar?output=instlink&q=info:FeSDZqLH7ccJ:scholar.google.com/&hl=en&as_sdt=0,10&scillfp=6875637517924055435&oi=lle"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=FeSDZqLH7ccJ",
+                "cited_by": {
+                    "total": 39,
+                    "link": "https://scholar.google.com/scholar?cites=14406390283346633749&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "14406390283346633749",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=14406390283346633749&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:FeSDZqLH7ccJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AFeSDZqLH7ccJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 9,
+                    "link": "https://scholar.google.com/scholar?cluster=14406390283346633749&hl=en&as_sdt=0,10",
+                    "cluster_id": "14406390283346633749",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=14406390283346633749&engine=google_scholar&hl=en"
+                }
+            }
+        },
+        {
+            "position": 3,
+            "title": "Quantifying the effect of geological factors on distribution of earthquake occurrences by inhomogeneous Cox processes",
+            "result_id": "VrXDRQIvQcUJ",
+            "link": "https://link.springer.com/article/10.1007/s00024-021-02713-2",
+            "snippet": "Research on earthquake occurrences using a statistical methodology based on point processes has mainly focused on the data featuring earthquake catalogs which ignores the effect …",
+            "publication_info": {
+                "summary": "A Choiruddin, Aisah, F Trisnisa, N Iriawan - Pure and Applied Geophysics, 2021 - Springer",
+                "authors": [
+                    {
+                        "name": "A Choiruddin",
+                        "link": "https://scholar.google.com/citations?user=mnSYXLIAAAAJ&hl=en&oi=sra",
+                        "author_id": "mnSYXLIAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mnSYXLIAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "Aisah"
+                    },
+                    {
+                        "name": "F Trisnisa"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "arxiv.org",
+                    "file_format": "PDF",
+                    "link": "https://arxiv.org/pdf/2104.06180"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=VrXDRQIvQcUJ",
+                "cited_by": {
+                    "total": 30,
+                    "link": "https://scholar.google.com/scholar?cites=14213693585764889942&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "14213693585764889942",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=14213693585764889942&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:VrXDRQIvQcUJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AVrXDRQIvQcUJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cluster=14213693585764889942&hl=en&as_sdt=0,10",
+                    "cluster_id": "14213693585764889942",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=14213693585764889942&engine=google_scholar&hl=en"
+                }
+            }
+        },
+        {
+            "position": 4,
+            "title": "A Markov Switching Autoregressive Model with Time-Varying Parameters",
+            "result_id": "Jobm16gw-loJ",
+            "type": "Html",
+            "link": "https://www.mdpi.com/2571-9394/6/3/31",
+            "snippet": "This study showcased the Markov switching autoregressive model with time-varying parameters (MSAR-TVP) for modeling nonlinear time series with structural changes. This model …",
+            "publication_info": {
+                "summary": "S Inayati, N Iriawan, Irhamah - Forecasting, 2024 - mdpi.com",
+                "authors": [
+                    {
+                        "name": "S Inayati",
+                        "link": "https://scholar.google.com/citations?user=UlrRp4YAAAAJ&hl=en&oi=sra",
+                        "author_id": "UlrRp4YAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UlrRp4YAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "Irhamah",
+                        "link": "https://scholar.google.com/citations?user=wXV4dTEAAAAJ&hl=en&oi=sra",
+                        "author_id": "wXV4dTEAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=wXV4dTEAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "mdpi.com",
+                    "file_format": "HTML",
+                    "link": "https://www.mdpi.com/2571-9394/6/3/31"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Jobm16gw-loJ",
+                "html_version": "https://www.mdpi.com/2571-9394/6/3/31",
+                "cited_by": {
+                    "total": 7,
+                    "link": "https://scholar.google.com/scholar?cites=6555605709326026278&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "6555605709326026278",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=6555605709326026278&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:Jobm16gw-loJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AJobm16gw-loJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cluster=6555605709326026278&hl=en&as_sdt=0,10",
+                    "cluster_id": "6555605709326026278",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=6555605709326026278&engine=google_scholar&hl=en"
+                },
+                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Jobm16gw-loJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+            }
+        },
+        {
+            "position": 5,
+            "title": "On the modeling of the average value of high school national examination in West Java using Bayesian hierarchical mixture normal approach",
+            "result_id": "Zbf7UXnT9m8J",
+            "link": "https://ieeexplore.ieee.org/abstract/document/8350803/",
+            "snippet": "National Examination (UN) is one of the standard evaluation systems of education in Indonesia. The results of the UN can be used as a consideration for the development and provision …",
+            "publication_info": {
+                "summary": "N Iriawan, K Fithriasari - 2018 International Conference on …, 2018 - ieeexplore.ieee.org",
+                "authors": [
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "K Fithriasari",
+                        "link": "https://scholar.google.com/citations?user=PpIYtxkAAAAJ&hl=en&oi=sra",
+                        "author_id": "PpIYtxkAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=PpIYtxkAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Zbf7UXnT9m8J",
+                "cited_by": {
+                    "total": 15,
+                    "link": "https://scholar.google.com/scholar?cites=8067868300500776805&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "8067868300500776805",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=8067868300500776805&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:Zbf7UXnT9m8J:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AZbf7UXnT9m8J%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 2,
+                    "link": "https://scholar.google.com/scholar?cluster=8067868300500776805&hl=en&as_sdt=0,10",
+                    "cluster_id": "8067868300500776805",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=8067868300500776805&engine=google_scholar&hl=en"
+                }
+            }
+        },
+        {
+            "position": 6,
+            "title": "The New Measures of Lorenz Curve Asymmetry: Formulation and Hypothesis Testing",
+            "result_id": "wLwYjY5dI1IJ",
+            "link": "http://dmame-journal.org/index.php/dmame/article/view/875",
+            "snippet": "The existence of an asymmetric empirical Lorenz curve requires a measure of asymmetry that directly involves the geometry of the Lorenz curve as a component of its formulation. …",
+            "publication_info": {
+                "summary": "M Fajar, S Setiawan, N Iriawan - Decision Making: Applications …, 2024 - dmame-journal.org",
+                "authors": [
+                    {
+                        "name": "M Fajar",
+                        "link": "https://scholar.google.com/citations?user=S49KPUoAAAAJ&hl=en&oi=sra",
+                        "author_id": "S49KPUoAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=S49KPUoAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "S Setiawan"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "dmame-journal.org",
+                    "file_format": "PDF",
+                    "link": "http://dmame-journal.org/index.php/dmame/article/download/875/199"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=wLwYjY5dI1IJ",
+                "cited_by": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cites=5918677202128911552&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "5918677202128911552",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=5918677202128911552&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:wLwYjY5dI1IJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AwLwYjY5dI1IJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cluster=5918677202128911552&hl=en&as_sdt=0,10",
+                    "cluster_id": "5918677202128911552",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=5918677202128911552&engine=google_scholar&hl=en"
+                },
+                "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:wLwYjY5dI1IJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+            }
+        },
+        {
+            "position": 7,
+            "title": "Rice phenology classification based on random forest algorithm for data imbalance using Google Earth engine",
+            "result_id": "bkVb7oNQEU8J",
+            "link": "https://www.sciencedirect.com/science/article/pii/S187705092102425X",
+            "snippet": "The agricultural sector is one of the important sectors in the world and has a very significant contribution to the achievement of the Sustainable Development Goals (SDGs) program. In …",
+            "publication_info": {
+                "summary": "H Suryono, H Kuswanto, N Iriawan - Procedia Computer Science, 2022 - Elsevier",
+                "authors": [
+                    {
+                        "name": "H Suryono",
+                        "link": "https://scholar.google.com/citations?user=qTYd-bQAAAAJ&hl=en&oi=sra",
+                        "author_id": "qTYd-bQAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qTYd-bQAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "H Kuswanto",
+                        "link": "https://scholar.google.com/citations?user=gfbT3kIAAAAJ&hl=en&oi=sra",
+                        "author_id": "gfbT3kIAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gfbT3kIAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "sciencedirect.com",
+                    "file_format": "PDF",
+                    "link": "https://www.sciencedirect.com/science/article/pii/S187705092102425X/pdf?md5=81ac8fd7bfef1adab73973ae794bc9d0&pid=1-s2.0-S187705092102425X-main.pdf"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bkVb7oNQEU8J",
+                "cited_by": {
+                    "total": 22,
+                    "link": "https://scholar.google.com/scholar?cites=5697423531170284910&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "5697423531170284910",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=5697423531170284910&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:bkVb7oNQEU8J:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AbkVb7oNQEU8J%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 3,
+                    "link": "https://scholar.google.com/scholar?cluster=5697423531170284910&hl=en&as_sdt=0,10",
+                    "cluster_id": "5697423531170284910",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=5697423531170284910&engine=google_scholar&hl=en"
+                }
+            }
+        },
+        {
+            "position": 8,
+            "title": "Binomial regression models with a flexible generalized logit link function",
+            "result_id": "jY_9O3oaC70J",
+            "type": "Html",
+            "link": "https://www.mdpi.com/2073-8994/12/2/221",
+            "snippet": "In binomial regression, a link function is used to join the linear predictor variables and the expectation of the response variable. This paper proposes a flexible link function from a new …",
+            "publication_info": {
+                "summary": "RB Prasetyo, H Kuswanto, N Iriawan, BSS Ulama - Symmetry, 2020 - mdpi.com",
+                "authors": [
+                    {
+                        "name": "RB Prasetyo",
+                        "link": "https://scholar.google.com/citations?user=_xAFkoMAAAAJ&hl=en&oi=sra",
+                        "author_id": "_xAFkoMAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_xAFkoMAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "H Kuswanto",
+                        "link": "https://scholar.google.com/citations?user=gfbT3kIAAAAJ&hl=en&oi=sra",
+                        "author_id": "gfbT3kIAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gfbT3kIAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "BSS Ulama",
+                        "link": "https://scholar.google.com/citations?user=TN1kvw8AAAAJ&hl=en&oi=sra",
+                        "author_id": "TN1kvw8AAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=TN1kvw8AAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "mdpi.com",
+                    "file_format": "HTML",
+                    "link": "https://www.mdpi.com/2073-8994/12/2/221"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=jY_9O3oaC70J",
+                "html_version": "https://www.mdpi.com/2073-8994/12/2/221",
+                "cited_by": {
+                    "total": 24,
+                    "link": "https://scholar.google.com/scholar?cites=13622010610207002509&as_sdt=40005&sciodt=0,10&hl=en",
+                    "cites_id": "13622010610207002509",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=13622010610207002509&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:jY_9O3oaC70J:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AjY_9O3oaC70J%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cluster=13622010610207002509&hl=en&as_sdt=0,10",
+                    "cluster_id": "13622010610207002509",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=13622010610207002509&engine=google_scholar&hl=en"
+                },
+                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:jY_9O3oaC70J:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+            }
+        },
+        {
+            "position": 9,
+            "title": "Parameter Estimation of MSNBurr-Based Hidden Markov Model: A Simulation Study",
+            "result_id": "kbXlWQjx8sMJ",
+            "type": "Html",
+            "link": "https://www.mdpi.com/2073-8994/17/11/1931",
+            "snippet": "Hidden Markov Model (HMM) is a well-known probabilistic framework for representing sequential phenomena governed by doubly stochastic processes. Specifically, it features a …",
+            "publication_info": {
+                "summary": "DB Unggul, N Iriawan, I Irhamah - Symmetry, 2025 - mdpi.com",
+                "authors": [
+                    {
+                        "name": "DB Unggul",
+                        "link": "https://scholar.google.com/citations?user=JJCDzYsAAAAJ&hl=en&oi=sra",
+                        "author_id": "JJCDzYsAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=JJCDzYsAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "I Irhamah"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "mdpi.com",
+                    "file_format": "HTML",
+                    "link": "https://www.mdpi.com/2073-8994/17/11/1931"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kbXlWQjx8sMJ",
+                "html_version": "https://www.mdpi.com/2073-8994/17/11/1931",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:kbXlWQjx8sMJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AkbXlWQjx8sMJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cluster=14119612799930185105&hl=en&as_sdt=0,10",
+                    "cluster_id": "14119612799930185105",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=14119612799930185105&engine=google_scholar&hl=en"
+                },
+                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kbXlWQjx8sMJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+            }
+        },
+        {
+            "position": 10,
+            "title": "The new adjusted SNR in determining order of the autoregressive model",
+            "result_id": "fX_YW9P0H5UJ",
+            "link": "https://pubs.aip.org/aip/acp/article-abstract/3301/1/050021/3352807",
+            "snippet": "The adjusted SNR (signal-to-noise-ratio) Type 2 is a development of SNR as an implication of not accommodating the number of parameters in statistical models, especially …",
+            "publication_info": {
+                "summary": "M Fajar, S Setiawan, N Iriawan - AIP Conference Proceedings, 2025 - pubs.aip.org",
+                "authors": [
+                    {
+                        "name": "M Fajar",
+                        "link": "https://scholar.google.com/citations?user=S49KPUoAAAAJ&hl=en&oi=sra",
+                        "author_id": "S49KPUoAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=S49KPUoAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "S Setiawan"
+                    },
+                    {
+                        "name": "N Iriawan",
+                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
+                        "author_id": "0xGypiwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fX_YW9P0H5UJ",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:fX_YW9P0H5UJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AfX_YW9P0H5UJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 4,
+                    "link": "https://scholar.google.com/scholar?cluster=10745576424545484669&hl=en&as_sdt=0,10",
+                    "cluster_id": "10745576424545484669",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=10745576424545484669&engine=google_scholar&hl=en"
+                }
+            }
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://scholar.google.com/scholar?start=10&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+        "other_pages": {
+            "2": "https://scholar.google.com/scholar?start=10&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "3": "https://scholar.google.com/scholar?start=20&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "4": "https://scholar.google.com/scholar?start=30&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "5": "https://scholar.google.com/scholar?start=40&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "6": "https://scholar.google.com/scholar?start=50&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "7": "https://scholar.google.com/scholar?start=60&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "8": "https://scholar.google.com/scholar?start=70&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "9": "https://scholar.google.com/scholar?start=80&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+            "10": "https://scholar.google.com/scholar?start=90&q=Nur+Iriawan&hl=en&as_sdt=0,10"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=10",
+        "next": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=10",
+            "3": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=20",
+            "4": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=30",
+            "5": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=40",
+            "6": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=50",
+            "7": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=60",
+            "8": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=70",
+            "9": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=80",
+            "10": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=90"
+        }
+    }
+}
