@@ -1,28 +1,32 @@
 import sys
 from googletrans import Translator
 
-sys.stdout.reconfigure(encoding='utf-8') #type: ignore
+# convert output ke UTF-8
+sys.stdout.reconfigure(encoding='utf-8')
 
 try:
-    # Cek apakah ada argumen input
     if len(sys.argv) > 1:
         text = sys.argv[1]
         
+        # default target bahasa indo
+        target_lang = "id"
+        if len(sys.argv) > 2:
+            target_lang = sys.argv[2] 
+
         translator = Translator()
-        # Tambahkan handling error koneksi translator
-        result = translator.translate(text, src="en", dest="id")
         
-        if result and result.text: #type: ignore
-            print(result.text)     #type: ignore
+        # auto detect source -> translate ke target
+        result = translator.translate(text, dest=target_lang)
+        
+        if result and result.text:
+            print(result.text) 
         else:
-            # Fallback jika hasil translate kosong, print aslinya
             print(text)
     else:
-        print("") # Print kosong jika tidak ada input
+        print("")
 
 except Exception as e:
-    # Jika error, print teks aslinya saja (fail-safe)
-    # Kita hindari print error traceback agar tidak merusak JSON/Array PHP
+    # Print text asli jika error, supaya PHP tetap dapat output
     if len(sys.argv) > 1:
         print(sys.argv[1])
     else:

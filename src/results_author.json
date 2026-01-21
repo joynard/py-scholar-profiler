@@ -1,385 +1,562 @@
 {
     "search_metadata": {
-        "id": "696b4d6969819dc0f812bf96",
+        "id": "696cd74c7223f4c91b5ef8bc",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/3582ea8c084926fb/696b4d6969819dc0f812bf96.json",
-        "created_at": "2026-01-17 08:50:49 UTC",
-        "processed_at": "2026-01-17 08:50:49 UTC",
-        "google_scholar_url": "https://scholar.google.com/scholar?q=Nur+Iriawan&hl=en",
-        "raw_html_file": "https://serpapi.com/searches/3582ea8c084926fb/696b4d6969819dc0f812bf96.html",
-        "total_time_taken": 0.33
+        "json_endpoint": "https://serpapi.com/searches/395dbc7847c7f896/696cd74c7223f4c91b5ef8bc.json",
+        "created_at": "2026-01-18 12:51:24 UTC",
+        "processed_at": "2026-01-18 12:51:24 UTC",
+        "google_scholar_url": "https://scholar.google.com/scholar?q=Joko+Siswantoro&hl=en",
+        "raw_html_file": "https://serpapi.com/searches/395dbc7847c7f896/696cd74c7223f4c91b5ef8bc.html",
+        "total_time_taken": 1.22
     },
     "search_parameters": {
         "engine": "google_scholar",
-        "q": "Nur Iriawan",
+        "q": "Joko Siswantoro",
         "hl": "en"
     },
     "search_information": {
         "organic_results_state": "Results for exact spelling",
-        "total_results": 1510,
+        "total_results": 823,
         "time_taken_displayed": 0.06,
-        "query_displayed": "Nur Iriawan"
+        "query_displayed": "Joko Siswantoro"
     },
     "profiles": {
-        "title": "User profiles for Nur Iriawan",
-        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Nur+Iriawan&hl=en&oi=ao",
-        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=Nur+Iriawan",
+        "title": "User profiles for Joko Siswantoro",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Joko+Siswantoro&hl=en&oi=ao",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=Joko+Siswantoro",
         "authors": [
             {
-                "name": "Nur Iriawan",
-                "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=ao",
-                "serpapi_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en",
-                "author_id": "0xGypiwAAAAJ",
-                "affiliations": "Statistics Department - Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia",
-                "email": "Verified email at statistika.its.ac.id",
-                "cited_by": 1810
+                "name": "Joko Siswantoro",
+                "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=ao",
+                "serpapi_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en",
+                "author_id": "aexhi0oAAAAJ",
+                "affiliations": "Assoc. Prof., Dept. of Informatics Engineering, University of Surabaya",
+                "email": "Verified email at staff.ubaya.ac.id",
+                "cited_by": 1815
             }
         ]
     },
     "organic_results": [
         {
             "position": 1,
-            "title": "UNet-VGG16 with transfer learning for MRI-based brain tumor segmentation",
-            "result_id": "PaA-kpQj7TQJ",
-            "link": "https://www.telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/view/14753",
-            "snippet": "A brain tumor is one of a deadly disease that needs high accuracy in its medical surgery. Brain tumor detection can be done through magnetic resonance imaging (MRI). Image …",
+            "title": "Evaluation of the engine performance and exhaust emissions of biodiesel-bioethanol-diesel blends using kernel-based extreme learning machine",
+            "result_id": "wnprXTbil0QJ",
+            "link": "https://www.sciencedirect.com/science/article/pii/S0360544218312672",
+            "snippet": "Highlights • Biodiesel-bioethanol-diesel blends can be used in CI engines without modifications. • K-ELM modelling facilitates in minimizing fuel consumption and exhaust emissions. • …",
             "publication_info": {
-                "summary": "AA Pravitasari, N Iriawan, M Almuhayar… - TELKOMNIKA …, 2020 - telkomnika.uad.ac.id",
+                "summary": "…, AH Sebayang, S Dharma, F Kusumo, J Siswantoro… - Energy, 2018 - Elsevier",
                 "authors": [
                     {
-                        "name": "AA Pravitasari",
-                        "link": "https://scholar.google.com/citations?user=cJKymqwAAAAJ&hl=en&oi=sra",
-                        "author_id": "cJKymqwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=cJKymqwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": ""
                     },
                     {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "AH Sebayang",
+                        "link": "https://scholar.google.com/citations?user=5hA72L4AAAAJ&hl=en&oi=sra",
+                        "author_id": "5hA72L4AAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5hA72L4AAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "M Almuhayar",
-                        "link": "https://scholar.google.com/citations?user=B7QTBlcAAAAJ&hl=en&oi=sra",
-                        "author_id": "B7QTBlcAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=B7QTBlcAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "S Dharma",
+                        "link": "https://scholar.google.com/citations?user=xq8-9lEAAAAJ&hl=en&oi=sra",
+                        "author_id": "xq8-9lEAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xq8-9lEAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "F Kusumo"
+                    },
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
             "resources": [
                 {
-                    "title": "uad.ac.id",
+                    "title": "academia.edu",
                     "file_format": "PDF",
-                    "link": "https://www.telkomnika.uad.ac.id/index.php/TELKOMNIKA/article/viewFile/14753/8142"
+                    "link": "https://www.academia.edu/download/56955074/Evaluation_of_the_engine_performance_and_emission_K-ELM_Silitonga.pdf"
                 }
             ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=PaA-kpQj7TQJ",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=wnprXTbil0QJ",
                 "cited_by": {
-                    "total": 202,
-                    "link": "https://scholar.google.com/scholar?cites=3813743580468387901&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "3813743580468387901",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=3813743580468387901&engine=google_scholar&hl=en"
+                    "total": 319,
+                    "link": "https://scholar.google.com/scholar?cites=4942667839185844930&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "4942667839185844930",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=4942667839185844930&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:PaA-kpQj7TQJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3APaA-kpQj7TQJ%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:wnprXTbil0QJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3AwnprXTbil0QJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 11,
-                    "link": "https://scholar.google.com/scholar?cluster=3813743580468387901&hl=en&as_sdt=0,10",
-                    "cluster_id": "3813743580468387901",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=3813743580468387901&engine=google_scholar&hl=en"
-                },
-                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:PaA-kpQj7TQJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+                    "total": 14,
+                    "link": "https://scholar.google.com/scholar?cluster=4942667839185844930&hl=en&as_sdt=0,14",
+                    "cluster_id": "4942667839185844930",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=4942667839185844930&engine=google_scholar&hl=en"
+                }
             }
         },
         {
             "position": 2,
-            "title": "YOLO‐UNet Architecture for Detecting and Segmenting the Localized MRI Brain Tumor Image",
-            "result_id": "FeSDZqLH7ccJ",
-            "link": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2024/3819801",
-            "snippet": "Brain tumor detection and segmentation are the main issues in biomedical engineering research fields, and it is always challenging due to its heterogeneous shape and location in MRI. …",
+            "title": "Biodiesel synthesis from Ceiba pentandra oil by microwave irradiation-assisted transesterification: ELM modeling and optimization",
+            "result_id": "6IwXn-xv-LQJ",
+            "link": "https://www.sciencedirect.com/science/article/pii/S0960148119310857",
+            "snippet": "In this study, microwave irradiation-assisted transesterification was used to produce Ceiba pentandra biodiesel, which accelerates the rate of reaction and temperature within a shorter …",
             "publication_info": {
-                "summary": "N Iriawan, AA Pravitasari, US Nuraini… - … Intelligence and Soft …, 2024 - Wiley Online Library",
+                "summary": "…, TMI Mahlia, J Milano, F Kusumo, J Siswantoro… - Renewable Energy, 2020 - Elsevier",
                 "authors": [
                     {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": ""
                     },
                     {
-                        "name": "AA Pravitasari",
-                        "link": "https://scholar.google.com/citations?user=cJKymqwAAAAJ&hl=en&oi=sra",
-                        "author_id": "cJKymqwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=cJKymqwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "TMI Mahlia",
+                        "link": "https://scholar.google.com/citations?user=jruLhLoAAAAJ&hl=en&oi=sra",
+                        "author_id": "jruLhLoAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jruLhLoAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "US Nuraini",
-                        "link": "https://scholar.google.com/citations?user=q-sbahIAAAAJ&hl=en&oi=sra",
-                        "author_id": "q-sbahIAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=q-sbahIAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "J Milano",
+                        "link": "https://scholar.google.com/citations?user=YPi1H1oAAAAJ&hl=en&oi=sra",
+                        "author_id": "YPi1H1oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=YPi1H1oAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "F Kusumo"
+                    },
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
             "resources": [
                 {
-                    "title": "wiley.com",
+                    "title": "ubaya.ac.id",
                     "file_format": "PDF",
-                    "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1155/2024/3819801"
-                },
-                {
-                    "title": "Full View",
-                    "link": "https://scholar.google.com/scholar?output=instlink&q=info:FeSDZqLH7ccJ:scholar.google.com/&hl=en&as_sdt=0,10&scillfp=6875637517924055435&oi=lle"
+                    "link": "http://repository.ubaya.ac.id/40910/5/Joko%20Siswantoro_Biodiesel%20synthesis%20from%20Ceiba%20pentandra%20oil%20by%20microwave%20irradiation-assisted%20transesterification%20ELM%20modeling%20and%20optimization.pdf"
                 }
             ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=FeSDZqLH7ccJ",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=6IwXn-xv-LQJ",
                 "cited_by": {
-                    "total": 39,
-                    "link": "https://scholar.google.com/scholar?cites=14406390283346633749&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "14406390283346633749",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=14406390283346633749&engine=google_scholar&hl=en"
+                    "total": 277,
+                    "link": "https://scholar.google.com/scholar?cites=13040295783123356904&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "13040295783123356904",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=13040295783123356904&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:FeSDZqLH7ccJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AFeSDZqLH7ccJ%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:6IwXn-xv-LQJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3A6IwXn-xv-LQJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 9,
-                    "link": "https://scholar.google.com/scholar?cluster=14406390283346633749&hl=en&as_sdt=0,10",
-                    "cluster_id": "14406390283346633749",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=14406390283346633749&engine=google_scholar&hl=en"
+                    "total": 11,
+                    "link": "https://scholar.google.com/scholar?cluster=13040295783123356904&hl=en&as_sdt=0,14",
+                    "cluster_id": "13040295783123356904",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=13040295783123356904&engine=google_scholar&hl=en"
                 }
             }
         },
         {
             "position": 3,
-            "title": "Quantifying the effect of geological factors on distribution of earthquake occurrences by inhomogeneous Cox processes",
-            "result_id": "VrXDRQIvQcUJ",
-            "link": "https://link.springer.com/article/10.1007/s00024-021-02713-2",
-            "snippet": "Research on earthquake occurrences using a statistical methodology based on point processes has mainly focused on the data featuring earthquake catalogs which ignores the effect …",
+            "title": "A linear model based on Kalman filter for improving neural network classification performance",
+            "result_id": "_Bv1HN8sJuYJ",
+            "link": "https://www.sciencedirect.com/science/article/pii/S0957417415008143",
+            "snippet": "Neural network has been applied in several classification problems such as in medical diagnosis, handwriting recognition, and product inspection, with a good classification …",
             "publication_info": {
-                "summary": "A Choiruddin, Aisah, F Trisnisa, N Iriawan - Pure and Applied Geophysics, 2021 - Springer",
+                "summary": "J Siswantoro, AS Prabuwono, A Abdullah… - Expert Systems with …, 2016 - Elsevier",
                 "authors": [
                     {
-                        "name": "A Choiruddin",
-                        "link": "https://scholar.google.com/citations?user=mnSYXLIAAAAJ&hl=en&oi=sra",
-                        "author_id": "mnSYXLIAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mnSYXLIAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "Aisah"
+                        "name": "AS Prabuwono",
+                        "link": "https://scholar.google.com/citations?user=Dfe6HvUAAAAJ&hl=en&oi=sra",
+                        "author_id": "Dfe6HvUAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Dfe6HvUAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "F Trisnisa"
-                    },
-                    {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "A Abdullah",
+                        "link": "https://scholar.google.com/citations?user=0LE_8tUAAAAJ&hl=en&oi=sra",
+                        "author_id": "0LE_8tUAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0LE_8tUAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
             "resources": [
                 {
-                    "title": "arxiv.org",
+                    "title": "ubaya.ac.id",
                     "file_format": "PDF",
-                    "link": "https://arxiv.org/pdf/2104.06180"
+                    "link": "http://repository.ubaya.ac.id/31231/13/Paper%20ESWA.pdf"
                 }
             ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=VrXDRQIvQcUJ",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=_Bv1HN8sJuYJ",
                 "cited_by": {
-                    "total": 30,
-                    "link": "https://scholar.google.com/scholar?cites=14213693585764889942&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "14213693585764889942",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=14213693585764889942&engine=google_scholar&hl=en"
+                    "total": 84,
+                    "link": "https://scholar.google.com/scholar?cites=16583992014613584892&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "16583992014613584892",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=16583992014613584892&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:VrXDRQIvQcUJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AVrXDRQIvQcUJ%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:_Bv1HN8sJuYJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3A_Bv1HN8sJuYJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 6,
-                    "link": "https://scholar.google.com/scholar?cluster=14213693585764889942&hl=en&as_sdt=0,10",
-                    "cluster_id": "14213693585764889942",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=14213693585764889942&engine=google_scholar&hl=en"
+                    "total": 9,
+                    "link": "https://scholar.google.com/scholar?cluster=16583992014613584892&hl=en&as_sdt=0,14",
+                    "cluster_id": "16583992014613584892",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=16583992014613584892&engine=google_scholar&hl=en"
                 }
             }
         },
         {
             "position": 4,
-            "title": "A Markov Switching Autoregressive Model with Time-Varying Parameters",
-            "result_id": "Jobm16gw-loJ",
-            "type": "Html",
-            "link": "https://www.mdpi.com/2571-9394/6/3/31",
-            "snippet": "This study showcased the Markov switching autoregressive model with time-varying parameters (MSAR-TVP) for modeling nonlinear time series with structural changes. This model …",
+            "title": "Optimization of biodiesel production from rice bran oil by ultrasound and infrared radiation using ANN-GWO",
+            "result_id": "j0sQ-1OdDHkJ",
+            "link": "https://www.sciencedirect.com/science/article/pii/S0016236123010177",
+            "snippet": "A system combining ultrasound and infrared radiation was used to increase the chemical reactions between incompressible reactants by enhancing their mass transfers with the aim to …",
             "publication_info": {
-                "summary": "S Inayati, N Iriawan, Irhamah - Forecasting, 2024 - mdpi.com",
+                "summary": "…, AH Shamsuddin, AS Silitonga, F Ideris, J Siswantoro… - Fuel, 2023 - Elsevier",
                 "authors": [
                     {
-                        "name": "S Inayati",
-                        "link": "https://scholar.google.com/citations?user=UlrRp4YAAAAJ&hl=en&oi=sra",
-                        "author_id": "UlrRp4YAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UlrRp4YAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": ""
                     },
                     {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "AH Shamsuddin",
+                        "link": "https://scholar.google.com/citations?user=Jr_ieJcAAAAJ&hl=en&oi=sra",
+                        "author_id": "Jr_ieJcAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Jr_ieJcAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "Irhamah",
-                        "link": "https://scholar.google.com/citations?user=wXV4dTEAAAAJ&hl=en&oi=sra",
-                        "author_id": "wXV4dTEAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=wXV4dTEAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "AS Silitonga"
+                    },
+                    {
+                        "name": "F Ideris",
+                        "link": "https://scholar.google.com/citations?user=MBPdPqwAAAAJ&hl=en&oi=sra",
+                        "author_id": "MBPdPqwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=MBPdPqwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
             "resources": [
                 {
-                    "title": "mdpi.com",
-                    "file_format": "HTML",
-                    "link": "https://www.mdpi.com/2571-9394/6/3/31"
+                    "title": "ubaya.ac.id",
+                    "file_format": "PDF",
+                    "link": "http://repository.ubaya.ac.id/45546/5/Joko%20Siswantoro_Optimization%20of%20biodiesel%20production.pdf"
                 }
             ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Jobm16gw-loJ",
-                "html_version": "https://www.mdpi.com/2571-9394/6/3/31",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=j0sQ-1OdDHkJ",
                 "cited_by": {
-                    "total": 7,
-                    "link": "https://scholar.google.com/scholar?cites=6555605709326026278&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "6555605709326026278",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=6555605709326026278&engine=google_scholar&hl=en"
+                    "total": 56,
+                    "link": "https://scholar.google.com/scholar?cites=8722519562329803663&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "8722519562329803663",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=8722519562329803663&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:Jobm16gw-loJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AJobm16gw-loJ%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:j0sQ-1OdDHkJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3Aj0sQ-1OdDHkJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 6,
-                    "link": "https://scholar.google.com/scholar?cluster=6555605709326026278&hl=en&as_sdt=0,10",
-                    "cluster_id": "6555605709326026278",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=6555605709326026278&engine=google_scholar&hl=en"
-                },
-                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Jobm16gw-loJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+                    "total": 8,
+                    "link": "https://scholar.google.com/scholar?cluster=8722519562329803663&hl=en&as_sdt=0,14",
+                    "cluster_id": "8722519562329803663",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=8722519562329803663&engine=google_scholar&hl=en"
+                }
             }
         },
         {
             "position": 5,
-            "title": "On the modeling of the average value of high school national examination in West Java using Bayesian hierarchical mixture normal approach",
-            "result_id": "Zbf7UXnT9m8J",
-            "link": "https://ieeexplore.ieee.org/abstract/document/8350803/",
-            "snippet": "National Examination (UN) is one of the standard evaluation systems of education in Indonesia. The results of the UN can be used as a consideration for the development and provision …",
+            "title": "Biodiesel production from Calophyllum inophyllum-Ceiba pentandra oil mixture: Optimization and characterization",
+            "result_id": "ajcgAhSWk1YJ",
+            "link": "https://www.sciencedirect.com/science/article/pii/S0959652619304275",
+            "snippet": "In this study, a novel modeling approach (artificial neural networks (ANN) and ant colony optimization (ACO)) was used to optimize the process variables for alkaline-catalyzed …",
             "publication_info": {
-                "summary": "N Iriawan, K Fithriasari - 2018 International Conference on …, 2018 - ieeexplore.ieee.org",
+                "summary": "…, CT Wang, TMI Mahlia, J Siswantoro… - Journal of Cleaner …, 2019 - Elsevier",
                 "authors": [
                     {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": ""
                     },
                     {
-                        "name": "K Fithriasari",
-                        "link": "https://scholar.google.com/citations?user=PpIYtxkAAAAJ&hl=en&oi=sra",
-                        "author_id": "PpIYtxkAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=PpIYtxkAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "CT Wang",
+                        "link": "https://scholar.google.com/citations?user=uo0etggAAAAJ&hl=en&oi=sra",
+                        "author_id": "uo0etggAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=uo0etggAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "TMI Mahlia",
+                        "link": "https://scholar.google.com/citations?user=jruLhLoAAAAJ&hl=en&oi=sra",
+                        "author_id": "jruLhLoAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jruLhLoAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
+            "resources": [
+                {
+                    "title": "ubaya.ac.id",
+                    "file_format": "PDF",
+                    "link": "http://repository.ubaya.ac.id/40907/5/Joko%20Siswantoro_Biodiesel%20production%20from%20Calophyllum%20inophyllum-Ceiba%20pentandra%20oil%20mixture%20Optimization%20and%20characterization.pdf"
+                }
+            ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Zbf7UXnT9m8J",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ajcgAhSWk1YJ",
                 "cited_by": {
-                    "total": 15,
-                    "link": "https://scholar.google.com/scholar?cites=8067868300500776805&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "8067868300500776805",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=8067868300500776805&engine=google_scholar&hl=en"
+                    "total": 260,
+                    "link": "https://scholar.google.com/scholar?cites=6238494921517447018&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "6238494921517447018",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=6238494921517447018&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:Zbf7UXnT9m8J:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AZbf7UXnT9m8J%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:ajcgAhSWk1YJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3AajcgAhSWk1YJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 2,
-                    "link": "https://scholar.google.com/scholar?cluster=8067868300500776805&hl=en&as_sdt=0,10",
-                    "cluster_id": "8067868300500776805",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=8067868300500776805&engine=google_scholar&hl=en"
+                    "total": 9,
+                    "link": "https://scholar.google.com/scholar?cluster=6238494921517447018&hl=en&as_sdt=0,14",
+                    "cluster_id": "6238494921517447018",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=6238494921517447018&engine=google_scholar&hl=en"
                 }
             }
         },
         {
             "position": 6,
-            "title": "The New Measures of Lorenz Curve Asymmetry: Formulation and Hypothesis Testing",
-            "result_id": "wLwYjY5dI1IJ",
-            "link": "http://dmame-journal.org/index.php/dmame/article/view/875",
-            "snippet": "The existence of an asymmetric empirical Lorenz curve requires a measure of asymmetry that directly involves the geometry of the Lorenz curve as a component of its formulation. …",
+            "title": "Gradient boosting machines fusion for automatic epilepsy detection from EEG signals based on wavelet features",
+            "result_id": "adqtEN21i3wJ",
+            "type": "Html",
+            "link": "https://www.sciencedirect.com/science/article/pii/S1319157821003293",
+            "snippet": "Automatic epilepsy detection from electroencephalogram (EEG) signals is an alternative to manual detection performed by a human expert. High classification performance is needed in …",
             "publication_info": {
-                "summary": "M Fajar, S Setiawan, N Iriawan - Decision Making: Applications …, 2024 - dmame-journal.org",
+                "summary": "D Sunaryono, R Sarno, J Siswantoro - Journal of King Saud University …, 2022 - Elsevier",
                 "authors": [
                     {
-                        "name": "M Fajar",
-                        "link": "https://scholar.google.com/citations?user=S49KPUoAAAAJ&hl=en&oi=sra",
-                        "author_id": "S49KPUoAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=S49KPUoAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "D Sunaryono",
+                        "link": "https://scholar.google.com/citations?user=t0sbqxQAAAAJ&hl=en&oi=sra",
+                        "author_id": "t0sbqxQAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=t0sbqxQAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "S Setiawan"
+                        "name": "R Sarno",
+                        "link": "https://scholar.google.com/citations?user=QOMOtp0AAAAJ&hl=en&oi=sra",
+                        "author_id": "QOMOtp0AAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=QOMOtp0AAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
             "resources": [
                 {
-                    "title": "dmame-journal.org",
-                    "file_format": "PDF",
-                    "link": "http://dmame-journal.org/index.php/dmame/article/download/875/199"
+                    "title": "sciencedirect.com",
+                    "file_format": "HTML",
+                    "link": "https://www.sciencedirect.com/science/article/pii/S1319157821003293"
                 }
             ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=wLwYjY5dI1IJ",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=adqtEN21i3wJ",
+                "html_version": "https://www.sciencedirect.com/science/article/pii/S1319157821003293",
                 "cited_by": {
-                    "total": 6,
-                    "link": "https://scholar.google.com/scholar?cites=5918677202128911552&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "5918677202128911552",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=5918677202128911552&engine=google_scholar&hl=en"
+                    "total": 43,
+                    "link": "https://scholar.google.com/scholar?cites=8974466643538074217&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "8974466643538074217",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=8974466643538074217&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:wLwYjY5dI1IJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AwLwYjY5dI1IJ%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:adqtEN21i3wJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3AadqtEN21i3wJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 6,
-                    "link": "https://scholar.google.com/scholar?cluster=5918677202128911552&hl=en&as_sdt=0,10",
-                    "cluster_id": "5918677202128911552",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=5918677202128911552&engine=google_scholar&hl=en"
-                },
-                "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:wLwYjY5dI1IJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
+                    "total": 4,
+                    "link": "https://scholar.google.com/scholar?cluster=8974466643538074217&hl=en&as_sdt=0,14",
+                    "cluster_id": "8974466643538074217",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=8974466643538074217&engine=google_scholar&hl=en"
+                }
             }
         },
         {
             "position": 7,
-            "title": "Rice phenology classification based on random forest algorithm for data imbalance using Google Earth engine",
-            "result_id": "bkVb7oNQEU8J",
-            "link": "https://www.sciencedirect.com/science/article/pii/S187705092102425X",
-            "snippet": "The agricultural sector is one of the important sectors in the world and has a very significant contribution to the achievement of the Sustainable Development Goals (SDGs) program. In …",
+            "title": "An android based course attendance system using face recognition",
+            "result_id": "9rYt8JMkxVcJ",
+            "type": "Html",
+            "link": "https://www.sciencedirect.com/science/article/pii/S1319157818309406",
+            "snippet": "Student attendance system is needed to measure student participation in a course. Several automated attendance systems have been proposed based on biometric recognition, …",
             "publication_info": {
-                "summary": "H Suryono, H Kuswanto, N Iriawan - Procedia Computer Science, 2022 - Elsevier",
+                "summary": "D Sunaryono, J Siswantoro, R Anggoro - Journal of King Saud University …, 2021 - Elsevier",
                 "authors": [
                     {
-                        "name": "H Suryono",
-                        "link": "https://scholar.google.com/citations?user=qTYd-bQAAAAJ&hl=en&oi=sra",
-                        "author_id": "qTYd-bQAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=qTYd-bQAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "D Sunaryono",
+                        "link": "https://scholar.google.com/citations?user=t0sbqxQAAAAJ&hl=en&oi=sra",
+                        "author_id": "t0sbqxQAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=t0sbqxQAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "H Kuswanto",
-                        "link": "https://scholar.google.com/citations?user=gfbT3kIAAAAJ&hl=en&oi=sra",
-                        "author_id": "gfbT3kIAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gfbT3kIAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     },
                     {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
+                        "name": "R Anggoro",
+                        "link": "https://scholar.google.com/citations?user=f3Yzoh4AAAAJ&hl=en&oi=sra",
+                        "author_id": "f3Yzoh4AAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=f3Yzoh4AAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "sciencedirect.com",
+                    "file_format": "HTML",
+                    "link": "https://www.sciencedirect.com/science/article/pii/S1319157818309406"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=9rYt8JMkxVcJ",
+                "html_version": "https://www.sciencedirect.com/science/article/pii/S1319157818309406",
+                "cited_by": {
+                    "total": 184,
+                    "link": "https://scholar.google.com/scholar?cites=6324501469520049910&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "6324501469520049910",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=6324501469520049910&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:9rYt8JMkxVcJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3A9rYt8JMkxVcJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 4,
+                    "link": "https://scholar.google.com/scholar?cluster=6324501469520049910&hl=en&as_sdt=0,14",
+                    "cluster_id": "6324501469520049910",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=6324501469520049910&engine=google_scholar&hl=en"
+                }
+            }
+        },
+        {
+            "position": 8,
+            "title": "Indonesian fruits classification from image using MPEG‐7 descriptors and ensemble of simple classifiers",
+            "result_id": "naDg2gCFIdQJ",
+            "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jfpe.13414",
+            "snippet": "Fruits classification from image is a very challenging task, particularly for Indonesian indigenous fruits, due to some similarities occurred in several types of the fruits. This study proposes …",
+            "publication_info": {
+                "summary": "J Siswantoro, H Arwoko… - Journal of Food Process …, 2020 - Wiley Online Library",
+                "authors": [
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "H Arwoko",
+                        "link": "https://scholar.google.com/citations?user=T7t8CoEAAAAJ&hl=en&oi=sra",
+                        "author_id": "T7t8CoEAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=T7t8CoEAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "ubaya.ac.id",
+                    "file_format": "PDF",
+                    "link": "http://repository.ubaya.ac.id/37713/19/Joko%20Siswantoro_Indonesian%20fruits%20classification.pdf"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=naDg2gCFIdQJ",
+                "cited_by": {
+                    "total": 13,
+                    "link": "https://scholar.google.com/scholar?cites=15285644848990822557&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "15285644848990822557",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=15285644848990822557&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:naDg2gCFIdQJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3AnaDg2gCFIdQJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 5,
+                    "link": "https://scholar.google.com/scholar?cluster=15285644848990822557&hl=en&as_sdt=0,14",
+                    "cluster_id": "15285644848990822557",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=15285644848990822557&engine=google_scholar&hl=en"
+                }
+            }
+        },
+        {
+            "position": 9,
+            "title": "Enhanced Support Vector Machine Based on Grey Wolf Optimizer for Fruits Image Classification using MPEG-7 Color and Texture Features Fusion",
+            "result_id": "9W7XFSqdK2cJ",
+            "link": "http://repository.ubaya.ac.id/46284/",
+            "snippet": "Fruit classification from images plays a pivotal role in diverse domains. Despite numerous efforts to tackle this challenge, it remains complex due to the diversity of fruit and applications. …",
+            "publication_info": {
+                "summary": "J Siswantoro - … Journal of Intelligent Engineering and Systems, 2024 - repository.ubaya.ac.id",
+                "authors": [
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
+                    }
+                ]
+            },
+            "resources": [
+                {
+                    "title": "ubaya.ac.id",
+                    "file_format": "PDF",
+                    "link": "http://repository.ubaya.ac.id/46284/3/Joko%20Siswantoro_Enhanced%20Support%20Vector%20Machine%20Based%20on%20Grey%20Wolf%20Optimizer_Rev.pdf"
+                }
+            ],
+            "inline_links": {
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=9W7XFSqdK2cJ",
+                "cited_by": {
+                    "total": 5,
+                    "link": "https://scholar.google.com/scholar?cites=7434208413985763061&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "7434208413985763061",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=7434208413985763061&engine=google_scholar&hl=en"
+                },
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:9W7XFSqdK2cJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3A9W7XFSqdK2cJ%3Ascholar.google.com%2F",
+                "versions": {
+                    "total": 6,
+                    "link": "https://scholar.google.com/scholar?cluster=7434208413985763061&hl=en&as_sdt=0,14",
+                    "cluster_id": "7434208413985763061",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=7434208413985763061&engine=google_scholar&hl=en"
+                },
+                "cached_page_link": "http://scholar.googleusercontent.com/scholar?q=cache:9W7XFSqdK2cJ:scholar.google.com/+Joko+Siswantoro&hl=en&as_sdt=0,14"
+            }
+        },
+        {
+            "position": 10,
+            "title": "Estimating gas concentration using artificial neural network for electronic nose",
+            "result_id": "jdLQp8eMfGcJ",
+            "link": "https://www.sciencedirect.com/science/article/pii/S1877050917329137",
+            "snippet": "E-nose is a sensor used to detect the existence of gas in the air. Some types of sensor has the ability to detect certain gas and also has different datasheet. Slope deflection is the …",
+            "publication_info": {
+                "summary": "SI Sabilla, R Sarno, J Siswantoro - Procedia Computer Science, 2017 - Elsevier",
+                "authors": [
+                    {
+                        "name": "SI Sabilla",
+                        "link": "https://scholar.google.com/citations?user=vzppzfwAAAAJ&hl=en&oi=sra",
+                        "author_id": "vzppzfwAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=vzppzfwAAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "R Sarno",
+                        "link": "https://scholar.google.com/citations?user=QOMOtp0AAAAJ&hl=en&oi=sra",
+                        "author_id": "QOMOtp0AAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=QOMOtp0AAAAJ&engine=google_scholar_author&hl=en"
+                    },
+                    {
+                        "name": "J Siswantoro",
+                        "link": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&oi=sra",
+                        "author_id": "aexhi0oAAAAJ",
+                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en"
                     }
                 ]
             },
@@ -387,206 +564,57 @@
                 {
                     "title": "sciencedirect.com",
                     "file_format": "PDF",
-                    "link": "https://www.sciencedirect.com/science/article/pii/S187705092102425X/pdf?md5=81ac8fd7bfef1adab73973ae794bc9d0&pid=1-s2.0-S187705092102425X-main.pdf"
+                    "link": "https://www.sciencedirect.com/science/article/pii/S1877050917329137/pdf?md5=17abbc45a1f1863bdadab290e4ddb96a&pid=1-s2.0-S1877050917329137-main.pdf"
                 }
             ],
             "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bkVb7oNQEU8J",
+                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=jdLQp8eMfGcJ",
                 "cited_by": {
-                    "total": 22,
-                    "link": "https://scholar.google.com/scholar?cites=5697423531170284910&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "5697423531170284910",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=5697423531170284910&engine=google_scholar&hl=en"
+                    "total": 69,
+                    "link": "https://scholar.google.com/scholar?cites=7456989872160559757&as_sdt=400005&sciodt=0,14&hl=en",
+                    "cites_id": "7456989872160559757",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=7456989872160559757&engine=google_scholar&hl=en"
                 },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:bkVb7oNQEU8J:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AbkVb7oNQEU8J%3Ascholar.google.com%2F",
+                "related_pages_link": "https://scholar.google.com/scholar?q=related:jdLQp8eMfGcJ:scholar.google.com/&scioq=Joko+Siswantoro&hl=en&as_sdt=0,14",
+                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=related%3AjdLQp8eMfGcJ%3Ascholar.google.com%2F",
                 "versions": {
-                    "total": 3,
-                    "link": "https://scholar.google.com/scholar?cluster=5697423531170284910&hl=en&as_sdt=0,10",
-                    "cluster_id": "5697423531170284910",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=5697423531170284910&engine=google_scholar&hl=en"
-                }
-            }
-        },
-        {
-            "position": 8,
-            "title": "Binomial regression models with a flexible generalized logit link function",
-            "result_id": "jY_9O3oaC70J",
-            "type": "Html",
-            "link": "https://www.mdpi.com/2073-8994/12/2/221",
-            "snippet": "In binomial regression, a link function is used to join the linear predictor variables and the expectation of the response variable. This paper proposes a flexible link function from a new …",
-            "publication_info": {
-                "summary": "RB Prasetyo, H Kuswanto, N Iriawan, BSS Ulama - Symmetry, 2020 - mdpi.com",
-                "authors": [
-                    {
-                        "name": "RB Prasetyo",
-                        "link": "https://scholar.google.com/citations?user=_xAFkoMAAAAJ&hl=en&oi=sra",
-                        "author_id": "_xAFkoMAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_xAFkoMAAAAJ&engine=google_scholar_author&hl=en"
-                    },
-                    {
-                        "name": "H Kuswanto",
-                        "link": "https://scholar.google.com/citations?user=gfbT3kIAAAAJ&hl=en&oi=sra",
-                        "author_id": "gfbT3kIAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gfbT3kIAAAAJ&engine=google_scholar_author&hl=en"
-                    },
-                    {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
-                    },
-                    {
-                        "name": "BSS Ulama",
-                        "link": "https://scholar.google.com/citations?user=TN1kvw8AAAAJ&hl=en&oi=sra",
-                        "author_id": "TN1kvw8AAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=TN1kvw8AAAAJ&engine=google_scholar_author&hl=en"
-                    }
-                ]
-            },
-            "resources": [
-                {
-                    "title": "mdpi.com",
-                    "file_format": "HTML",
-                    "link": "https://www.mdpi.com/2073-8994/12/2/221"
-                }
-            ],
-            "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=jY_9O3oaC70J",
-                "html_version": "https://www.mdpi.com/2073-8994/12/2/221",
-                "cited_by": {
-                    "total": 24,
-                    "link": "https://scholar.google.com/scholar?cites=13622010610207002509&as_sdt=40005&sciodt=0,10&hl=en",
-                    "cites_id": "13622010610207002509",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=40005&cites=13622010610207002509&engine=google_scholar&hl=en"
-                },
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:jY_9O3oaC70J:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AjY_9O3oaC70J%3Ascholar.google.com%2F",
-                "versions": {
-                    "total": 6,
-                    "link": "https://scholar.google.com/scholar?cluster=13622010610207002509&hl=en&as_sdt=0,10",
-                    "cluster_id": "13622010610207002509",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=13622010610207002509&engine=google_scholar&hl=en"
-                },
-                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:jY_9O3oaC70J:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
-            }
-        },
-        {
-            "position": 9,
-            "title": "Parameter Estimation of MSNBurr-Based Hidden Markov Model: A Simulation Study",
-            "result_id": "kbXlWQjx8sMJ",
-            "type": "Html",
-            "link": "https://www.mdpi.com/2073-8994/17/11/1931",
-            "snippet": "Hidden Markov Model (HMM) is a well-known probabilistic framework for representing sequential phenomena governed by doubly stochastic processes. Specifically, it features a …",
-            "publication_info": {
-                "summary": "DB Unggul, N Iriawan, I Irhamah - Symmetry, 2025 - mdpi.com",
-                "authors": [
-                    {
-                        "name": "DB Unggul",
-                        "link": "https://scholar.google.com/citations?user=JJCDzYsAAAAJ&hl=en&oi=sra",
-                        "author_id": "JJCDzYsAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=JJCDzYsAAAAJ&engine=google_scholar_author&hl=en"
-                    },
-                    {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
-                    },
-                    {
-                        "name": "I Irhamah"
-                    }
-                ]
-            },
-            "resources": [
-                {
-                    "title": "mdpi.com",
-                    "file_format": "HTML",
-                    "link": "https://www.mdpi.com/2073-8994/17/11/1931"
-                }
-            ],
-            "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kbXlWQjx8sMJ",
-                "html_version": "https://www.mdpi.com/2073-8994/17/11/1931",
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:kbXlWQjx8sMJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AkbXlWQjx8sMJ%3Ascholar.google.com%2F",
-                "versions": {
-                    "total": 6,
-                    "link": "https://scholar.google.com/scholar?cluster=14119612799930185105&hl=en&as_sdt=0,10",
-                    "cluster_id": "14119612799930185105",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=14119612799930185105&engine=google_scholar&hl=en"
-                },
-                "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kbXlWQjx8sMJ:scholar.google.com/+Nur+Iriawan&hl=en&as_sdt=0,10"
-            }
-        },
-        {
-            "position": 10,
-            "title": "The new adjusted SNR in determining order of the autoregressive model",
-            "result_id": "fX_YW9P0H5UJ",
-            "link": "https://pubs.aip.org/aip/acp/article-abstract/3301/1/050021/3352807",
-            "snippet": "The adjusted SNR (signal-to-noise-ratio) Type 2 is a development of SNR as an implication of not accommodating the number of parameters in statistical models, especially …",
-            "publication_info": {
-                "summary": "M Fajar, S Setiawan, N Iriawan - AIP Conference Proceedings, 2025 - pubs.aip.org",
-                "authors": [
-                    {
-                        "name": "M Fajar",
-                        "link": "https://scholar.google.com/citations?user=S49KPUoAAAAJ&hl=en&oi=sra",
-                        "author_id": "S49KPUoAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=S49KPUoAAAAJ&engine=google_scholar_author&hl=en"
-                    },
-                    {
-                        "name": "S Setiawan"
-                    },
-                    {
-                        "name": "N Iriawan",
-                        "link": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en&oi=sra",
-                        "author_id": "0xGypiwAAAAJ",
-                        "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en"
-                    }
-                ]
-            },
-            "inline_links": {
-                "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fX_YW9P0H5UJ",
-                "related_pages_link": "https://scholar.google.com/scholar?q=related:fX_YW9P0H5UJ:scholar.google.com/&scioq=Nur+Iriawan&hl=en&as_sdt=0,10",
-                "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=related%3AfX_YW9P0H5UJ%3Ascholar.google.com%2F",
-                "versions": {
-                    "total": 4,
-                    "link": "https://scholar.google.com/scholar?cluster=10745576424545484669&hl=en&as_sdt=0,10",
-                    "cluster_id": "10745576424545484669",
-                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C10&cluster=10745576424545484669&engine=google_scholar&hl=en"
+                    "total": 9,
+                    "link": "https://scholar.google.com/scholar?cluster=7456989872160559757&hl=en&as_sdt=0,14",
+                    "cluster_id": "7456989872160559757",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=7456989872160559757&engine=google_scholar&hl=en"
                 }
             }
         }
     ],
     "pagination": {
         "current": 1,
-        "next": "https://scholar.google.com/scholar?start=10&q=Nur+Iriawan&hl=en&as_sdt=0,10",
+        "next": "https://scholar.google.com/scholar?start=10&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
         "other_pages": {
-            "2": "https://scholar.google.com/scholar?start=10&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "3": "https://scholar.google.com/scholar?start=20&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "4": "https://scholar.google.com/scholar?start=30&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "5": "https://scholar.google.com/scholar?start=40&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "6": "https://scholar.google.com/scholar?start=50&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "7": "https://scholar.google.com/scholar?start=60&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "8": "https://scholar.google.com/scholar?start=70&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "9": "https://scholar.google.com/scholar?start=80&q=Nur+Iriawan&hl=en&as_sdt=0,10",
-            "10": "https://scholar.google.com/scholar?start=90&q=Nur+Iriawan&hl=en&as_sdt=0,10"
+            "2": "https://scholar.google.com/scholar?start=10&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "3": "https://scholar.google.com/scholar?start=20&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "4": "https://scholar.google.com/scholar?start=30&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "5": "https://scholar.google.com/scholar?start=40&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "6": "https://scholar.google.com/scholar?start=50&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "7": "https://scholar.google.com/scholar?start=60&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "8": "https://scholar.google.com/scholar?start=70&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "9": "https://scholar.google.com/scholar?start=80&q=Joko+Siswantoro&hl=en&as_sdt=0,14",
+            "10": "https://scholar.google.com/scholar?start=90&q=Joko+Siswantoro&hl=en&as_sdt=0,14"
         }
     },
     "serpapi_pagination": {
         "current": 1,
-        "next_link": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=10",
-        "next": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=10",
+        "next_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=10",
+        "next": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=10",
         "other_pages": {
-            "2": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=10",
-            "3": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=20",
-            "4": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=30",
-            "5": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=40",
-            "6": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=50",
-            "7": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=60",
-            "8": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=70",
-            "9": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=80",
-            "10": "https://serpapi.com/search.json?as_sdt=0%2C10&engine=google_scholar&hl=en&q=Nur+Iriawan&start=90"
+            "2": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=10",
+            "3": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=20",
+            "4": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=30",
+            "5": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=40",
+            "6": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=50",
+            "7": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=60",
+            "8": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=70",
+            "9": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=80",
+            "10": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&q=Joko+Siswantoro&start=90"
         }
     }
 }

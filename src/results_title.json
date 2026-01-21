@@ -1,426 +1,261 @@
 {
     "search_metadata": {
-        "id": "696b4d6bdc74d0e18b504b77",
+        "id": "696ce024f3a0a79ebe0db4bd",
         "status": "Success",
-        "json_endpoint": "https://serpapi.com/searches/2d379809715eecc1/696b4d6bdc74d0e18b504b77.json",
-        "created_at": "2026-01-17 08:50:51 UTC",
-        "processed_at": "2026-01-17 08:50:51 UTC",
-        "google_scholar_author_url": "https://scholar.google.com/citations?user=0xGypiwAAAAJ&hl=en",
-        "raw_html_file": "https://serpapi.com/searches/2d379809715eecc1/696b4d6bdc74d0e18b504b77.html",
-        "total_time_taken": 0.63
+        "json_endpoint": "https://serpapi.com/searches/fa904c11dc49639f/696ce024f3a0a79ebe0db4bd.json",
+        "created_at": "2026-01-18 13:29:08 UTC",
+        "processed_at": "2026-01-18 13:29:08 UTC",
+        "google_scholar_author_url": "https://scholar.google.com/citations?user=aexhi0oAAAAJ&hl=en&pagesize=10",
+        "raw_html_file": "https://serpapi.com/searches/fa904c11dc49639f/696ce024f3a0a79ebe0db4bd.html",
+        "total_time_taken": 0.34
     },
     "search_parameters": {
         "engine": "google_scholar_author",
-        "author_id": "0xGypiwAAAAJ",
-        "hl": "en"
+        "author_id": "aexhi0oAAAAJ",
+        "hl": "en",
+        "num": "10"
     },
     "author": {
-        "name": "Nur Iriawan",
-        "affiliations": "Statistics Department - Institut Teknologi Sepuluh Nopember (ITS), Surabaya, Indonesia",
-        "email": "Verified email at statistika.its.ac.id",
+        "name": "Joko Siswantoro",
+        "affiliations": "Assoc. Prof., Dept. of Informatics Engineering, University of Surabaya",
+        "email": "Verified email at staff.ubaya.ac.id",
+        "website": "https://ubaya.id/joko",
         "interests": [
             {
-                "title": "computational statistics",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computational_statistics",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputational_statistics"
+                "title": "Artificial Intelligence",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:artificial_intelligence",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aartificial_intelligence"
             },
             {
-                "title": "Bayesian Statistics",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:bayesian_statistics",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Abayesian_statistics"
+                "title": "machine learning",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:machine_learning",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amachine_learning"
             },
             {
-                "title": "Stochastic Processes",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:stochastic_processes",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Astochastic_processes"
+                "title": "computer vision",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:computer_vision",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputer_vision"
             },
             {
-                "title": "Applied Statistics",
-                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:applied_statistics",
-                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aapplied_statistics"
+                "title": "image processing",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:image_processing",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aimage_processing"
+            },
+            {
+                "title": "mathematics",
+                "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:mathematics",
+                "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amathematics"
             }
         ],
-        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=0xGypiwAAAAJ&citpid=2"
+        "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=aexhi0oAAAAJ&citpid=2"
     },
     "articles": [
         {
-            "title": "Mengolah data statistik dengan mudah menggunakan minitab 14",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:u5HHmVD_uO8C",
-            "citation_id": "0xGypiwAAAAJ:u5HHmVD_uO8C",
-            "authors": "N Iriawan, SP Astuti",
-            "publication": "Yogyakarta: Andi, 470, 2006",
+            "title": "Evaluation of the engine performance and exhaust emissions of biodiesel-bioethanol-diesel blends using kernel-based extreme learning machine",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:fPk4N6BV_jEC",
+            "citation_id": "aexhi0oAAAAJ:fPk4N6BV_jEC",
+            "authors": "Arridina Susan Silitonga, Haji Hassan Masjuki, Hwai Chyuan Ong, Abdi Hanra Sebayang, Surya Dharma, Fitranto Kusumo, Joko Siswantoro, Jassinnee Milano, Khairil Daud, Teuku Meurah Indra Mahlia, Wei-Hsin Chen, Bambang Sugiyanto",
+            "publication": "Energy",
             "cited_by": {
-                "value": 438,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1175002347654166145,9242335114175169012,16719719236671107002,12522334515462966955,13086866040012662772,15316275279158035023,17892591290008471168,14065360537911343568,11738667055307365198",
-                "serpapi_link": "https://serpapi.com/search.json?cites=1175002347654166145%2C9242335114175169012%2C16719719236671107002%2C12522334515462966955%2C13086866040012662772%2C15316275279158035023%2C17892591290008471168%2C14065360537911343568%2C11738667055307365198&engine=google_scholar&hl=en",
-                "cites_id": "1175002347654166145,9242335114175169012,16719719236671107002,12522334515462966955,13086866040012662772,15316275279158035023,17892591290008471168,14065360537911343568,11738667055307365198"
-            },
-            "year": "2006"
-        },
-        {
-            "title": "UNet-VGG16 with transfer learning for MRI-based brain tumor segmentation",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:k8Z6L05lTy4C",
-            "citation_id": "0xGypiwAAAAJ:k8Z6L05lTy4C",
-            "authors": "AA Pravitasari, N Iriawan, M Almuhayar, T Azmi, I Irhamah, K Fithriasari, ...",
-            "publication": "TELKOMNIKA (Telecommunication Computing Electronics and Control) 18 (3 …, 2020",
-            "cited_by": {
-                "value": 202,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3813743580468387901",
-                "serpapi_link": "https://serpapi.com/search.json?cites=3813743580468387901&engine=google_scholar&hl=en",
-                "cites_id": "3813743580468387901"
-            },
-            "year": "2020"
-        },
-        {
-            "title": "Restructuring and Expanding Technology Acceptance Model Structural Equation Model and Bayesian Approach",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:FPJr55Dyh1AC",
-            "citation_id": "0xGypiwAAAAJ:FPJr55Dyh1AC",
-            "authors": "MA Aggorowati, N Iriawan, Suhartono, H Gautama",
-            "publication": "American Journal of Applied Sciences 9 (4), 496-504, 2012",
-            "cited_by": {
-                "value": 69,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15309769564397713260",
-                "serpapi_link": "https://serpapi.com/search.json?cites=15309769564397713260&engine=google_scholar&hl=en",
-                "cites_id": "15309769564397713260"
-            },
-            "year": "2012"
-        },
-        {
-            "title": "Topic modeling twitter data using latent dirichlet allocation and latent semantic analysis",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:EYYDruWGBe4C",
-            "citation_id": "0xGypiwAAAAJ:EYYDruWGBe4C",
-            "authors": "S Qomariyah, N Iriawan, K Fithriasari",
-            "publication": "AIP conference proceedings 2194 (1), 020093, 2019",
-            "cited_by": {
-                "value": 59,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11380904587022676816",
-                "serpapi_link": "https://serpapi.com/search.json?cites=11380904587022676816&engine=google_scholar&hl=en",
-                "cites_id": "11380904587022676816"
-            },
-            "year": "2019"
-        },
-        {
-            "title": "Computationally Intensive Approaches to Inference in Neo-Normal Linear Models",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:u-x6o8ySG0sC",
-            "citation_id": "0xGypiwAAAAJ:u-x6o8ySG0sC",
-            "authors": "N Iriawan",
-            "publication": "Curtin University of Technology., 2000",
-            "cited_by": {
-                "value": 40,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3708946685013721317",
-                "serpapi_link": "https://serpapi.com/search.json?cites=3708946685013721317&engine=google_scholar&hl=en",
-                "cites_id": "3708946685013721317"
-            },
-            "year": "2000"
-        },
-        {
-            "title": "YOLO‐UNet Architecture for Detecting and Segmenting the Localized MRI Brain Tumor Image",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:jU7OWUQzBzMC",
-            "citation_id": "0xGypiwAAAAJ:jU7OWUQzBzMC",
-            "authors": "N Iriawan, AA Pravitasari, US Nuraini, NI Nirmalasari, T Azmi, M Nasrudin, ...",
-            "publication": "Applied Computational Intelligence and Soft Computing 2024 (1), 3819801, 2024",
-            "cited_by": {
-                "value": 39,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14406390283346633749",
-                "serpapi_link": "https://serpapi.com/search.json?cites=14406390283346633749&engine=google_scholar&hl=en",
-                "cites_id": "14406390283346633749"
-            },
-            "year": "2024"
-        },
-        {
-            "title": "Pemodelan dan Analisis Data-Driven",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:LjlpjdlvIbIC",
-            "citation_id": "0xGypiwAAAAJ:LjlpjdlvIbIC",
-            "authors": "N Iriawan",
-            "publication": "ITS Press, Surabaya, 2012",
-            "cited_by": {
-                "value": 35,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4142910007418301288",
-                "serpapi_link": "https://serpapi.com/search.json?cites=4142910007418301288&engine=google_scholar&hl=en",
-                "cites_id": "4142910007418301288"
-            },
-            "year": "2012"
-        },
-        {
-            "title": "Quantifying the effect of geological factors on distribution of earthquake occurrences by inhomogeneous Cox processes",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:BJbdYPG6LGMC",
-            "citation_id": "0xGypiwAAAAJ:BJbdYPG6LGMC",
-            "authors": "A Choiruddin, Aisah, F Trisnisa, N Iriawan",
-            "publication": "Pure and Applied Geophysics 178 (5), 1579-1592, 2021",
-            "cited_by": {
-                "value": 30,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14213693585764889942",
-                "serpapi_link": "https://serpapi.com/search.json?cites=14213693585764889942&engine=google_scholar&hl=en",
-                "cites_id": "14213693585764889942"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Binomial regression models with a flexible generalized logit link function",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:gsN89kCJA0AC",
-            "citation_id": "0xGypiwAAAAJ:gsN89kCJA0AC",
-            "authors": "RB Prasetyo, H Kuswanto, N Iriawan, BSS Ulama",
-            "publication": "Symmetry 12 (2), 221, 2020",
-            "cited_by": {
-                "value": 24,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13622010610207002509",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13622010610207002509&engine=google_scholar&hl=en",
-                "cites_id": "13622010610207002509"
-            },
-            "year": "2020"
-        },
-        {
-            "title": "Deteksi kapal di laut indonesia menggunakan yolov3",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:2tRrZ1ZAMYUC",
-            "citation_id": "0xGypiwAAAAJ:2tRrZ1ZAMYUC",
-            "authors": "AF Fandisyah, N Iriawan, WS Winahju",
-            "publication": "Jurnal Sains dan Seni ITS 10 (1), 488045, 2021",
-            "cited_by": {
-                "value": 23,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13196243564748998431",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13196243564748998431&engine=google_scholar&hl=en",
-                "cites_id": "13196243564748998431"
-            },
-            "year": "2021"
-        },
-        {
-            "title": "Rice phenology classification based on random forest algorithm for data imbalance using Google Earth engine",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:1lhNe0rCu4AC",
-            "citation_id": "0xGypiwAAAAJ:1lhNe0rCu4AC",
-            "authors": "H Suryono, H Kuswanto, N Iriawan",
-            "publication": "Procedia Computer Science 197, 668-676, 2022",
-            "cited_by": {
-                "value": 22,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5697423531170284910",
-                "serpapi_link": "https://serpapi.com/search.json?cites=5697423531170284910&engine=google_scholar&hl=en",
-                "cites_id": "5697423531170284910"
-            },
-            "year": "2022"
-        },
-        {
-            "title": "A comparison of some link functions for binomial regression models with application to school drop-out rates in East Java",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:4MWp96NkSFoC",
-            "citation_id": "0xGypiwAAAAJ:4MWp96NkSFoC",
-            "authors": "RB Prasetyo, H Kuswanto, N Iriawan, BSS Ulama",
-            "publication": "AIP conference proceedings 2194 (1), 020083, 2019",
-            "cited_by": {
-                "value": 20,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2236492890608436599",
-                "serpapi_link": "https://serpapi.com/search.json?cites=2236492890608436599&engine=google_scholar&hl=en",
-                "cites_id": "2236492890608436599"
-            },
-            "year": "2019"
-        },
-        {
-            "title": "Markov Chain Monte Carlo–Based Approaches for Modeling the Spatial Survival with Conditional Autoregressive (CAR) frailty",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:IjCSPb-OGe4C",
-            "citation_id": "0xGypiwAAAAJ:IjCSPb-OGe4C",
-            "authors": "N Iriawan, S Astutik, DD Prastyo",
-            "publication": "IJCSNS 10 (12), 211, 2010",
-            "cited_by": {
-                "value": 19,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=931025612749214338,5216298712359407955",
-                "serpapi_link": "https://serpapi.com/search.json?cites=931025612749214338%2C5216298712359407955&engine=google_scholar&hl=en",
-                "cites_id": "931025612749214338,5216298712359407955"
-            },
-            "year": "2010"
-        },
-        {
-            "title": "Comparative study of brain tumor segmentation using different segmentation techniques in handling noise",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:0KyAp5RtaNEC",
-            "citation_id": "0xGypiwAAAAJ:0KyAp5RtaNEC",
-            "authors": "N Iriawan, AA Pravitasari, K Fithriasari, SW Purnami, W Ferriastuti",
-            "publication": "Proceedings of the 2018 Interna-tional Conference on Computer Engineering …, 2018",
-            "cited_by": {
-                "value": 18,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11818470080677442747",
-                "serpapi_link": "https://serpapi.com/search.json?cites=11818470080677442747&engine=google_scholar&hl=en",
-                "cites_id": "11818470080677442747"
+                "value": 318,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4942667839185844930",
+                "serpapi_link": "https://serpapi.com/search.json?cites=4942667839185844930&engine=google_scholar&hl=en",
+                "cites_id": "4942667839185844930"
             },
             "year": "2018"
         },
         {
-            "title": "Penaksiran Model Mixture Normal Univariabel: Suatu Pendekatan Metode Bayesian dengan MCMC",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:QIV2ME_5wuYC",
-            "citation_id": "0xGypiwAAAAJ:QIV2ME_5wuYC",
-            "authors": "N Iriawan",
-            "publication": "Prosiding Seminar Nasional dan Konferda VII Matematika Wilayah DIY & Jawa …, 2001",
+            "title": "Biodiesel synthesis from Ceiba pentandra oil by microwave irradiation-assisted transesterification: ELM modeling and optimization",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:f2IySw72cVMC",
+            "citation_id": "aexhi0oAAAAJ:f2IySw72cVMC",
+            "authors": "Arridina Susan Silitonga, Abd Halim Shamsuddin, Teuku Meurah Indra Mahlia, Jassinne Milano, Fitranto Kusumo, Joko Siswantoro, S Dharma, AH Sebayang, HH Masjuki, Hwai Chyuan Ong",
+            "publication": "Renewable Energy",
             "cited_by": {
-                "value": 17,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1550790442161049366",
-                "serpapi_link": "https://serpapi.com/search.json?cites=1550790442161049366&engine=google_scholar&hl=en",
-                "cites_id": "1550790442161049366"
+                "value": 277,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13040295783123356904",
+                "serpapi_link": "https://serpapi.com/search.json?cites=13040295783123356904&engine=google_scholar&hl=en",
+                "cites_id": "13040295783123356904"
             },
-            "year": "2001"
+            "year": "2020"
         },
         {
-            "title": "Analisis pengaruh kualitas layanan, kepuasan pelanggan, dan kepercayaan terhadap loyalitas pelanggan flexi mobile broadband di wilayah surabaya dengan pendekatan SEM Bayesian",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:UebtZRa9Y70C",
-            "citation_id": "0xGypiwAAAAJ:UebtZRa9Y70C",
-            "authors": "R Nariswari, N Iriawan",
-            "publication": "Jurnal Sains dan Seni ITS 1 (1), 15908, 2012",
+            "title": "Biodiesel production from Calophyllum inophyllum-Ceiba pentandra oil mixture: Optimization and characterization",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:yD5IFk8b50cC",
+            "citation_id": "aexhi0oAAAAJ:yD5IFk8b50cC",
+            "authors": "Hwai Chyuan Ong, Jassinnee Milano, Arridina Susan Silitonga, Masjuki Haji Hassan, Abd Halim Shamsuddin, Chin-Tsan Wang, Teuku Meurah Indra Mahlia, Joko Siswantoro, Fitranto Kusumo, Joko Sutrisno",
+            "publication": "Journal of Cleaner Production",
             "cited_by": {
-                "value": 16,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13293018526481809496",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13293018526481809496&engine=google_scholar&hl=en",
-                "cites_id": "13293018526481809496"
+                "value": 260,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6238494921517447018",
+                "serpapi_link": "https://serpapi.com/search.json?cites=6238494921517447018&engine=google_scholar&hl=en",
+                "cites_id": "6238494921517447018"
             },
-            "year": "2012"
+            "year": "2019"
         },
         {
-            "title": "Fisher’s z Distribution-Based Mixture Autoregressive Model",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:LgRImbQfgY4C",
-            "citation_id": "0xGypiwAAAAJ:LgRImbQfgY4C",
-            "authors": "A Solikhah, H Kuswanto, N Iriawan, K Fithriasari",
-            "publication": "Econometrics 9 (3), 27, 2021",
+            "title": "An android based course attendance system using face recognition",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:cFHS6HbyZ2cC",
+            "citation_id": "aexhi0oAAAAJ:cFHS6HbyZ2cC",
+            "authors": "Dwi Sunaryono, Joko Siswantoro, Radityo Anggoro",
+            "publication": "Journal of King Saud University-Computer and Information Sciences",
             "cited_by": {
-                "value": 15,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13216725213899236724",
-                "serpapi_link": "https://serpapi.com/search.json?cites=13216725213899236724&engine=google_scholar&hl=en",
-                "cites_id": "13216725213899236724"
+                "value": 184,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6324501469520049910",
+                "serpapi_link": "https://serpapi.com/search.json?cites=6324501469520049910&engine=google_scholar&hl=en",
+                "cites_id": "6324501469520049910"
             },
             "year": "2021"
         },
         {
-            "title": "On the modeling of the average value of high school national examination in West Java using Bayesian hierarchical mixture normal approach",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:kzcrU_BdoSEC",
-            "citation_id": "0xGypiwAAAAJ:kzcrU_BdoSEC",
-            "authors": "N Iriawan, K Fithriasari",
-            "publication": "2018 International Conference on Information and Communications Technology …, 2018",
+            "title": "Optimization of transesterification process for Ceiba pentandra oil: A comparative study between kernel-based extreme learning machine and artificial neural networks",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:SeFeTyx0c_EC",
+            "citation_id": "aexhi0oAAAAJ:SeFeTyx0c_EC",
+            "authors": "F Kusumo, AS Silitonga, HH Masjuki, Hwai Chyuan Ong, J Siswantoro, TMI Mahlia",
+            "publication": "Energy",
             "cited_by": {
-                "value": 15,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8067868300500776805",
-                "serpapi_link": "https://serpapi.com/search.json?cites=8067868300500776805&engine=google_scholar&hl=en",
-                "cites_id": "8067868300500776805"
-            },
-            "year": "2018"
-        },
-        {
-            "title": "Survival analysis of companies’ delisting time in Indonesian stock exchange using Bayesian multiple-period logit approach",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:JQOojiI6XY0C",
-            "citation_id": "0xGypiwAAAAJ:JQOojiI6XY0C",
-            "authors": "DD Prastyo, T Miranti, N Iriawan",
-            "publication": "Malaysian Journal of Fundamental and Applied Sciences 13 (4-1), 425-429, 2017",
-            "cited_by": {
-                "value": 15,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14889599997275306132",
-                "serpapi_link": "https://serpapi.com/search.json?cites=14889599997275306132&engine=google_scholar&hl=en",
-                "cites_id": "14889599997275306132"
+                "value": 136,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10556508032438116639",
+                "serpapi_link": "https://serpapi.com/search.json?cites=10556508032438116639&engine=google_scholar&hl=en",
+                "cites_id": "10556508032438116639"
             },
             "year": "2017"
         },
         {
-            "title": "On the Bernoulli Mixture Model for Bidikmisi Scholarship Classification with Bayesian MCMC",
-            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=0xGypiwAAAAJ&citation_for_view=0xGypiwAAAAJ:tzM49s52ZIMC",
-            "citation_id": "0xGypiwAAAAJ:tzM49s52ZIMC",
-            "authors": "W Suryaningtyas, N Iriawan, K Fithriasari, BSS Ulama, I Susanto, ...",
-            "publication": "Journal of Physics: Conference Series 1090 (1), 012072, 2018",
+            "title": "A linear model based on Kalman filter for improving neural network classification performance",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:lSLTfruPkqcC",
+            "citation_id": "aexhi0oAAAAJ:lSLTfruPkqcC",
+            "authors": "Joko Siswantoro, Anton Satria Prabuwono, Azizi Abdullah, Bahari Idrus",
+            "publication": "Expert Systems with Applications",
             "cited_by": {
-                "value": 14,
-                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5250073799702596629",
-                "serpapi_link": "https://serpapi.com/search.json?cites=5250073799702596629&engine=google_scholar&hl=en",
-                "cites_id": "5250073799702596629"
+                "value": 84,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16583992014613584892",
+                "serpapi_link": "https://serpapi.com/search.json?cites=16583992014613584892&engine=google_scholar&hl=en",
+                "cites_id": "16583992014613584892"
             },
-            "year": "2018"
+            "year": "2016"
+        },
+        {
+            "title": "Estimating gas concentration using artificial neural network for electronic nose",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:u_35RYKgDlwC",
+            "citation_id": "aexhi0oAAAAJ:u_35RYKgDlwC",
+            "authors": "Shoffi Izza Sabilla, Riyanarto Sarno, Joko Siswantoro",
+            "publication": "Procedia Computer Science",
+            "cited_by": {
+                "value": 68,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7456989872160559757",
+                "serpapi_link": "https://serpapi.com/search.json?cites=7456989872160559757&engine=google_scholar&hl=en",
+                "cites_id": "7456989872160559757"
+            },
+            "year": "2017"
+        },
+        {
+            "title": "Optimization of biodiesel production from rice bran oil by ultrasound and infrared radiation using ANN-GWO",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:tS2w5q8j5-wC",
+            "citation_id": "aexhi0oAAAAJ:tS2w5q8j5-wC",
+            "authors": "AH Sebayang, Fitranto Kusumo, Jassinnee Milano, AH Shamsuddin, AS Silitonga, F Ideris, Joko Siswantoro, Ibham Veza, M Mofijur, Shir Reen Chia",
+            "publication": "Fuel",
+            "cited_by": {
+                "value": 56,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8722519562329803663",
+                "serpapi_link": "https://serpapi.com/search.json?cites=8722519562329803663&engine=google_scholar&hl=en",
+                "cites_id": "8722519562329803663"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Gradient boosting machines fusion for automatic epilepsy detection from EEG signals based on wavelet features",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:SP6oXDckpogC",
+            "citation_id": "aexhi0oAAAAJ:SP6oXDckpogC",
+            "authors": "Dwi Sunaryono, Riyanarto Sarno, Joko Siswantoro",
+            "publication": "Journal of King Saud University-Computer and Information Sciences",
+            "cited_by": {
+                "value": 43,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8974466643538074217",
+                "serpapi_link": "https://serpapi.com/search.json?cites=8974466643538074217&engine=google_scholar&hl=en",
+                "cites_id": "8974466643538074217"
+            },
+            "year": "2022"
+        },
+        {
+            "title": "Volume measurement of food product with irregular shape using computer vision and Monte Carlo method: a framework",
+            "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aexhi0oAAAAJ&pagesize=10&citation_for_view=aexhi0oAAAAJ:YFjsv_pBGBYC",
+            "citation_id": "aexhi0oAAAAJ:YFjsv_pBGBYC",
+            "authors": "Joko Siswantoro, Anton Satria Prabuwono, Azizi Abdulah",
+            "publication": "Procedia Technology",
+            "cited_by": {
+                "value": 36,
+                "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15866760325754400432",
+                "serpapi_link": "https://serpapi.com/search.json?cites=15866760325754400432&engine=google_scholar&hl=en",
+                "cites_id": "15866760325754400432"
+            },
+            "year": "2013"
         }
     ],
     "cited_by": {
         "table": [
             {
                 "citations": {
-                    "all": 1810,
-                    "since_2021": 1016
+                    "all": 1815,
+                    "since_2021": 1298
                 }
             },
             {
                 "h_index": {
-                    "all": 16,
-                    "since_2021": 13
+                    "all": 17,
+                    "since_2021": 14
                 }
             },
             {
                 "i10_index": {
-                    "all": 35,
-                    "since_2021": 18
+                    "all": 24,
+                    "since_2021": 21
                 }
             }
         ],
         "graph": [
             {
-                "year": 2007,
-                "citations": 7
-            },
-            {
-                "year": 2008,
-                "citations": 15
-            },
-            {
-                "year": 2009,
-                "citations": 23
-            },
-            {
-                "year": 2010,
-                "citations": 23
-            },
-            {
-                "year": 2011,
-                "citations": 33
-            },
-            {
-                "year": 2012,
-                "citations": 43
-            },
-            {
-                "year": 2013,
-                "citations": 27
-            },
-            {
-                "year": 2014,
-                "citations": 48
-            },
-            {
                 "year": 2015,
-                "citations": 64
+                "citations": 9
             },
             {
                 "year": 2016,
-                "citations": 63
+                "citations": 14
             },
             {
                 "year": 2017,
-                "citations": 102
+                "citations": 26
             },
             {
                 "year": 2018,
-                "citations": 87
+                "citations": 38
             },
             {
                 "year": 2019,
-                "citations": 115
+                "citations": 163
             },
             {
                 "year": 2020,
-                "citations": 113
+                "citations": 237
             },
             {
                 "year": 2021,
-                "citations": 170
+                "citations": 234
             },
             {
                 "year": 2022,
-                "citations": 176
+                "citations": 270
             },
             {
                 "year": 2023,
-                "citations": 210
+                "citations": 258
             },
             {
                 "year": 2024,
-                "citations": 235
+                "citations": 292
             },
             {
                 "year": 2025,
-                "citations": 212
+                "citations": 232
             },
             {
                 "year": 2026,
@@ -430,187 +265,121 @@
     },
     "co_authors": [
         {
-            "name": "Kartika Fithriasari",
-            "link": "https://scholar.google.com/citations?user=PpIYtxkAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=PpIYtxkAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "PpIYtxkAAAAJ",
-            "affiliations": "Department of Statistics, Institut Teknologi Sepuluh Nopember",
-            "email": "Verified email at statistika.its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=PpIYtxkAAAAJ&citpid=1"
+            "name": "Anton Satria Prabuwono",
+            "link": "https://scholar.google.com/citations?user=Dfe6HvUAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=Dfe6HvUAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "Dfe6HvUAAAAJ",
+            "affiliations": "Professor of Computing, Universiti Teknologi PETRONAS",
+            "email": "Verified email at utp.edu.my",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=Dfe6HvUAAAAJ&citpid=4"
         },
         {
-            "name": "Irhamah",
-            "link": "https://scholar.google.com/citations?user=wXV4dTEAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=wXV4dTEAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "wXV4dTEAAAAJ",
-            "affiliations": "Institut Teknologi Sepuluh Nopember",
+            "name": "dwi sunaryono",
+            "link": "https://scholar.google.com/citations?user=t0sbqxQAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=t0sbqxQAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "t0sbqxQAAAAJ",
+            "affiliations": "Departement of informatics, institut teknologi sepuluh nopember",
+            "email": "Verified email at if.its.ac.id",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=t0sbqxQAAAAJ&citpid=1"
+        },
+        {
+            "name": "T M Indra Mahlia",
+            "link": "https://scholar.google.com/citations?user=jruLhLoAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=jruLhLoAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "jruLhLoAAAAJ",
+            "affiliations": "Distinguished Professor of Civil and Environmental Engineering, University of Technology Sydney",
+            "email": "Verified email at uts.edu.au",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=jruLhLoAAAAJ&citpid=30"
+        },
+        {
+            "name": "Azizi Abdullah",
+            "link": "https://scholar.google.com/citations?user=0LE_8tUAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=0LE_8tUAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "0LE_8tUAAAAJ",
+            "affiliations": "Universiti Kebangsaan Malaysia",
+            "email": "Verified email at ukm.edu.my",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=0LE_8tUAAAAJ&citpid=2"
+        },
+        {
+            "name": "Riyanarto Sarno",
+            "link": "https://scholar.google.com/citations?user=QOMOtp0AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=QOMOtp0AAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "QOMOtp0AAAAJ",
+            "affiliations": "Department of Informatics, Institut Teknologi Sepuluh Nopember",
             "email": "Verified email at its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=wXV4dTEAAAAJ&citpid=4"
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QOMOtp0AAAAJ&citpid=2"
         },
         {
-            "name": "Heri Kuswanto",
-            "link": "https://scholar.google.com/citations?user=gfbT3kIAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=gfbT3kIAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "gfbT3kIAAAAJ",
-            "affiliations": "Department of Statistics, Institut Teknologi Sepuluh Nopember (ITS)",
-            "email": "Verified email at statistika.its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=gfbT3kIAAAAJ&citpid=4"
-        },
-        {
-            "name": "Anindya Apriliyanti Pravitasari",
-            "link": "https://scholar.google.com/citations?user=cJKymqwAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=cJKymqwAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "cJKymqwAAAAJ",
-            "affiliations": "Lecturer of Statistics Department, Universitas Padjadjaran",
-            "email": "Verified email at unpad.ac.id",
+            "name": "Bahari Idrus",
+            "link": "https://scholar.google.com/citations?user=qT2MjqAAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=qT2MjqAAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "qT2MjqAAAAAJ",
+            "affiliations": "Faculty of Information Science and Technology, Universiti Kebangsaan Malaysia, 43600, Bangi, Selangor, MALAYSIA.",
+            "email": "Verified email at ukm.edu.my",
             "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
         },
         {
-            "name": "Brodjol Sutijo Suprih Ulama",
-            "link": "https://scholar.google.com/citations?user=TN1kvw8AAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=TN1kvw8AAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "TN1kvw8AAAAJ",
-            "affiliations": "Department of Business Statistics, Institut Teknologi Sepuluh Nopember",
-            "email": "Verified email at statistika.its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=TN1kvw8AAAAJ&citpid=2"
+            "name": "Endah Asmawati",
+            "link": "https://scholar.google.com/citations?user=NOoqEFsAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=NOoqEFsAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "NOoqEFsAAAAJ",
+            "affiliations": "Lecturer, Universitas Surabaya",
+            "email": "Verified email at staff.ubaya.ac.id",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=NOoqEFsAAAAJ&citpid=1"
         },
         {
-            "name": "Septin Puji Astuti",
-            "link": "https://scholar.google.com/citations?user=QxJWXTEAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=QxJWXTEAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "QxJWXTEAAAAJ",
-            "affiliations": "UIN Raden Mas Said Surakarta",
-            "email": "Verified email at staff.uinsaid.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=QxJWXTEAAAAJ&citpid=2"
+            "name": "Monica Widiasri",
+            "link": "https://scholar.google.com/citations?user=26BNXHYAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=26BNXHYAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "26BNXHYAAAAJ",
+            "affiliations": "Universitas Surabaya",
+            "email": "Verified email at staff.ubaya.ac.id",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=26BNXHYAAAAJ&citpid=1"
         },
         {
-            "name": "Wahyuni Suryaningtyas",
-            "link": "https://scholar.google.com/citations?user=Mz6W8hcAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=Mz6W8hcAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "Mz6W8hcAAAAJ",
-            "affiliations": "Universitas Muhammadiyah Surabaya",
-            "email": "Verified email at um-surabaya.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=Mz6W8hcAAAAJ&citpid=3"
+            "name": "Arif Herlambang",
+            "link": "https://scholar.google.com/citations?user=WNsCA78AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=WNsCA78AAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "WNsCA78AAAAJ",
+            "affiliations": "Universitas Surabaya",
+            "email": "Verified email at staff.ubaya.ac.id",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=WNsCA78AAAAJ&citpid=2"
         },
         {
-            "name": "Ani Budi Astuti",
-            "link": "https://scholar.google.com/citations?user=oS8qMvsAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=oS8qMvsAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "oS8qMvsAAAAJ",
-            "affiliations": "Department of Statistics, Faculty of Mathematics and Natural Sciences, University of Brawijaya",
-            "email": "Verified email at ub.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=oS8qMvsAAAAJ&citpid=1"
+            "name": "Fitri Dwi Kartikasari",
+            "link": "https://scholar.google.com/citations?user=j3Ng8XcAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=j3Ng8XcAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "j3Ng8XcAAAAJ",
+            "affiliations": "Universitas Surabaya",
+            "email": "Verified email at staff.ubaya.ac.id",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=j3Ng8XcAAAAJ&citpid=3"
         },
         {
-            "name": "Dedy Dwi Prastyo",
-            "link": "https://scholar.google.com/citations?user=AWNTSFoAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=AWNTSFoAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "AWNTSFoAAAAJ",
-            "affiliations": "Professor at Department of Statistics, Institut Teknologi Sepuluh Nopember",
-            "email": "Verified email at its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=AWNTSFoAAAAJ&citpid=11"
+            "name": "Hazrul Iswadi",
+            "link": "https://scholar.google.com/citations?user=rTgzAg4AAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=rTgzAg4AAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "rTgzAg4AAAAJ",
+            "affiliations": "Pengajar Matematika, Universitas Surabaya",
+            "email": "Verified email at staff.ubaya.ac.id",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=rTgzAg4AAAAJ&citpid=6"
         },
         {
-            "name": "Dwilaksana Abdullah Rasyid",
-            "link": "https://scholar.google.com/citations?user=aqPIuQ8AAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=aqPIuQ8AAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "aqPIuQ8AAAAJ",
-            "affiliations": "Institut Teknologi Sepuluh Nopember",
-            "email": "Verified email at mhs.its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=aqPIuQ8AAAAJ&citpid=2"
+            "name": "Arridina Susan Silitonga",
+            "link": "https://scholar.google.com/citations?user=Kz7NuLcAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=Kz7NuLcAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "Kz7NuLcAAAAJ",
+            "affiliations": "Centre for Technology & Centre of Renewable Energy",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=Kz7NuLcAAAAJ&citpid=7"
         },
         {
-            "name": "Achmad Choiruddin",
-            "link": "https://scholar.google.com/citations?user=mnSYXLIAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=mnSYXLIAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "mnSYXLIAAAAJ",
-            "affiliations": "Department of Statistics, Institut Teknologi Sepuluh Nopember",
-            "email": "Verified email at its.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=mnSYXLIAAAAJ&citpid=11"
-        },
-        {
-            "name": "Mawanda Almuhayar",
-            "link": "https://scholar.google.com/citations?user=B7QTBlcAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=B7QTBlcAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "B7QTBlcAAAAJ",
-            "affiliations": "Department of Mathematics, Universitas Andalas, Indonesia",
-            "email": "Verified email at sci.unand.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=B7QTBlcAAAAJ&citpid=1"
-        },
-        {
-            "name": "Wiwiek Setya Winahju",
-            "link": "https://scholar.google.com/citations?user=sYsjCW4AAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=sYsjCW4AAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "sYsjCW4AAAAJ",
-            "affiliations": "Institut Teknologi Sepuluh Nopember",
-            "email": "Verified email at statistika.its.ac.id",
-            "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
-        },
-        {
-            "name": "Irwan Susanto",
-            "link": "https://scholar.google.com/citations?user=xFGjZHUAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=xFGjZHUAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "xFGjZHUAAAAJ",
-            "affiliations": "Department of Statistics, FMIPA, Universitas Sebelas Maret",
-            "email": "Verified email at staff.uns.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=xFGjZHUAAAAJ&citpid=3"
-        },
-        {
-            "name": "SINTA SEPTI PANGASTUTI",
-            "link": "https://scholar.google.com/citations?user=KIhYmOwAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=KIhYmOwAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "KIhYmOwAAAAJ",
-            "affiliations": "Universitas Padjadjaran",
-            "email": "Verified email at unpad.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=KIhYmOwAAAAJ&citpid=1"
-        },
-        {
-            "name": "Dwi Rantini",
-            "link": "https://scholar.google.com/citations?user=V1OMmoEAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=V1OMmoEAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "V1OMmoEAAAAJ",
-            "affiliations": "Universitas Airlangga",
-            "email": "Verified email at ftmm.unair.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=V1OMmoEAAAAJ&citpid=2"
-        },
-        {
-            "name": "Ulfa Siti Nuraini",
-            "link": "https://scholar.google.com/citations?user=q-sbahIAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=q-sbahIAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "q-sbahIAAAAJ",
-            "affiliations": "Universitas Negeri Surabaya",
-            "email": "Verified email at unesa.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=q-sbahIAAAAJ&citpid=1"
-        },
-        {
-            "name": "Rindang Bangun Prasetyo",
-            "link": "https://scholar.google.com/citations?user=_xAFkoMAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=_xAFkoMAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "_xAFkoMAAAAJ",
-            "affiliations": "Lektor, Politeknik Statistika STIS",
-            "email": "Verified email at stis.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=_xAFkoMAAAAJ&citpid=4"
-        },
-        {
-            "name": "Suci Astuti",
-            "link": "https://scholar.google.com/citations?user=AdPAdaUAAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=AdPAdaUAAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "AdPAdaUAAAAJ",
-            "affiliations": "Universitas Brawijaya",
-            "email": "Verified email at ub.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=AdPAdaUAAAAJ&citpid=1"
-        },
-        {
-            "name": "NITA CAHYANI",
-            "link": "https://scholar.google.com/citations?user=8v42iO4AAAAJ&hl=en",
-            "serpapi_link": "https://serpapi.com/search.json?author_id=8v42iO4AAAAJ&engine=google_scholar_author&hl=en",
-            "author_id": "8v42iO4AAAAJ",
-            "affiliations": "Universitas Padjadjaran",
-            "email": "Verified email at unpad.ac.id",
-            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=8v42iO4AAAAJ&citpid=1"
+            "name": "Fitranto kusumo",
+            "link": "https://scholar.google.com/citations?user=zvIfnyMAAAAJ&hl=en",
+            "serpapi_link": "https://serpapi.com/search.json?author_id=zvIfnyMAAAAJ&engine=google_scholar_author&hl=en&num=10",
+            "author_id": "zvIfnyMAAAAJ",
+            "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=zvIfnyMAAAAJ&citpid=7"
         }
     ],
     "serpapi_pagination": {
-        "next": "https://serpapi.com/search.json?author_id=0xGypiwAAAAJ&engine=google_scholar_author&hl=en&start=20"
+        "next": "https://serpapi.com/search.json?author_id=aexhi0oAAAAJ&engine=google_scholar_author&hl=en&num=10&start=10"
     }
 }

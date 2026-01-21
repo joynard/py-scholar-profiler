@@ -1,54 +1,74 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
+
+spl_autoload_register(function ($class) {
+    $prefix = 'Sastrawi\\';
+    $base_dir = __DIR__ . '/../vendor/sastrawi/sastrawi/src/Sastrawi/';
+
+    $len = strlen($prefix);
+    if (strncmp($prefix, $class, $len) !== 0) {
+        return;
+    }
+
+    $relative_class = substr($class, $len);
+
+    $file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';
+
+    if (file_exists($file)) {
+        require $file;
+    }
+});
+
 use Phpml\FeatureExtraction\TokenCountVectorizer;
 use Phpml\Tokenization\WhitespaceTokenizer;
 use Phpml\FeatureExtraction\TfIdfTransformer;
-$pythonPath = "py";
 
+use Sastrawi\StopWordRemover\StopWordRemoverFactory;
+use Sastrawi\Stemmer\StemmerFactory;
+
+// --- INISIALISASI SASTRAWI ---
+$stopWordFactory = new StopWordRemoverFactory();
+$stopword = $stopWordFactory->createStopWordRemover();
+
+$stemmerFactory = new StemmerFactory();
+$stemmer = $stemmerFactory->createStemmer();
+
+$pythonPath = "py"; 
 
 $authorName = $_POST['author_name'] ?? '';
 $keyword = $_POST['keyword'] ?? '';
 $limit = (int) ($_POST['limit'] ?? 5);
 
-
 if ($authorName === '' || $keyword === '') {
     die("Input tidak lengkap");
 }
 
+// 1. Cari Author ID
 $command = shell_exec($pythonPath . ' "' . __DIR__ . '/scholars_author.py" ' . escapeshellarg($authorName) . " 2>&1");
 
-// Read and decode the JSON file
 $json_file = 'results_author.json';
 if (!file_exists($json_file)) {
     echo "<h1>Error</h1><p>Results file not found.</p>";
     exit;
 }
 
-$json_content = file_get_contents($json_file);
-$data = json_decode($json_content, true);
-if (json_last_error() !== JSON_ERROR_NONE) {
-    echo "<h1>Error</h1><p>Failed to decode JSON: " . json_last_error_msg() . "</p><pre>$json_content</pre>";
-    exit;
+$dataAuthor = json_decode(file_get_contents($json_file), true);
+$author_id = $dataAuthor['profiles']['authors'][0]['author_id'] ?? null;
+
+if (!$author_id) {
+    die("Author ID tidak ditemukan. Coba nama lain.");
 }
 
-$author_id = $data['profiles']['authors'][0]['author_id'];
+// 2. Cari Artikel (Detail)
+$command = shell_exec($pythonPath . ' "' . __DIR__ . '/scholars_title.py" ' . escapeshellarg($author_id) . ' ' . escapeshellarg($limit) . " 2>&1");
 
-$command = shell_exec($pythonPath . ' "' . __DIR__ . '/scholars_title.py" ' . escapeshellarg($author_id) . " 2>&1");
-
-
-// Read and decode the JSON file
 $json_file = 'results_title.json';
 if (!file_exists($json_file)) {
     echo "<h1>Error</h1><p>Results file not found.</p>";
     exit;
 }
 
-$json_content = file_get_contents($json_file);
-$data = json_decode($json_content, true);
-if (json_last_error() !== JSON_ERROR_NONE) {
-    echo "<h1>Error</h1><p>Failed to decode JSON: " . json_last_error_msg() . "</p><pre>$json_content</pre>";
-    exit;
-}
+$data = json_decode(file_get_contents($json_file), true);
 
 if (isset($data['articles']) && is_array($data['articles'])) {
     $topArticles = array_slice($data['articles'], 0, $limit);
@@ -59,16 +79,12 @@ if (isset($data['articles']) && is_array($data['articles'])) {
     foreach ($topArticles as $article) {
         $newsTitle   = $article['title'] ?? '-';
         $journalLink = $article['link'] ?? '#'; 
-        
-        // Di JSON SerpApi, sitasi ada di dalam object 'cited_by'
         $sitasi      = $article['cited_by']['value'] ?? 0;
-        
-        // Di JSON SerpApi, penulis & jurnal biasanya sudah ada di key ini
         $authors     = $article['authors'] ?? '-'; 
         $journal     = $article['publication'] ?? '-';
         $rilis       = $article['year'] ?? '-';
 
-        // Masukkan ke array data
+        // Simpan data asli untuk ditampilkan di tabel
         $articlesData[] = [
             'title' => $newsTitle,
             'authors' => $authors,
@@ -79,124 +95,126 @@ if (isset($data['articles']) && is_array($data['articles'])) {
             'similarity' => 0 
         ];
         
+        // --- PROSES PREPROCESSING ---
+        
+        // 1. Translate (Inggris -> Indonesia)
         $command = shell_exec($pythonPath . ' "' . __DIR__ . '/translate.py" ' . escapeshellarg($newsTitle) . " 2>&1");
-        
-        // Bersihkan hasil translate
-        $cleanText = strtolower(trim($command));
-        
-        // Fallback: Jika translate gagal/kosong, pakai judul asli saja
-        if (empty($cleanText)) {
-            $cleanText = strtolower($newsTitle);
-        }
+        $text = strtolower(trim($command));
+        if (empty($text)) $text = strtolower($newsTitle);
 
-        $similarityData[] = $cleanText;
+        // 2. Sastrawi: Hapus Stopword (dan, yang, di, dll)
+        $text = $stopword->remove($text);
+
+        // 3. Sastrawi: Stemming
+        $text = $stemmer->stem($text);
+
+        $similarityData[] = $text;
     }
 
+    // --- PROSES KEYWORD USER ---
     $command = shell_exec($pythonPath . ' "' . __DIR__ . '/translate.py" ' . escapeshellarg($keyword) . " 2>&1");
-    $translated = trim($command);
-    $similarityData[] = strtolower($translated);
+    $keyText = strtolower(trim($command));
+    if (empty($keyText)) $keyText = strtolower($keyword);
+
+    // Terapkan Sastrawi juga pada keyword
+    $keyText = $stopword->remove($keyText);
+    $keyText = $stemmer->stem($keyText);
+
+    $similarityData[] = $keyText;
+
+    // Simpan data similarity untuk debugging (opsional)
     file_put_contents(
         'similarity_data.json',
         json_encode($similarityData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)
     );
-
-    /*
-    // Perhitungan Similarity dengan PHP-ML
-    // --- AREA DEBUGGING ---
-    echo "<h3>Debug Data Translate:</h3>";
-    echo "<pre>";
-    print_r($similarityData); // Cek apakah isinya teks judul indo atau kosong?
-    echo "</pre>";
-
-    if (empty($similarityData[0])) {
-        die("<b>FATAL ERROR:</b> Hasil translate kosong! Script Python tidak mengembalikan output ke PHP.");
-    }
-    // --- END DEBUGGING ---
-    */
     
+    // --- HITUNG SIMILARITY (TF-IDF & COSINE) ---
     if (count($similarityData) > 1) {
-        // Dokumen terakhir adalah KEYWORD, sisanya adalah JUDUL ARTIKEL
         $documents = $similarityData;
         
-        // 2. Tokenisasi & Vektorisasi (Mengubah teks jadi angka)
+        // Tokenisasi
         $vectorizer = new TokenCountVectorizer(new WhitespaceTokenizer());
         $vectorizer->fit($documents);
         $vectorizer->transform($documents);
 
-        // 3. TF-IDF (Memberi bobot pada kata penting)
+        // TF-IDF
         $transformer = new TfIdfTransformer();
         $transformer->fit($documents);
         $transformer->transform($documents);
 
-        // 4. Ambil Vektor Keyword (elemen terakhir)
+        // Ambil Vektor Keyword (elemen terakhir)
         $keywordVector = end($documents);
-        array_pop($documents); // Buang keyword dari list agar sisa artikel saja
+        array_pop($documents); 
 
-        // Fungsi Cosine Similarity Manual (sederhana & efektif)
+        // Fungsi Cosine Similarity
         function hitungCosine($vecA, $vecB) {
-            $dot = 0;
-            $normA = 0; 
-            $normB = 0;
-            
-            // Dot Product
+            $dot = 0; $normA = 0; $normB = 0;
             foreach ($vecA as $key => $val) {
                 if (isset($vecB[$key])) {
                     $dot += $val * $vecB[$key];
                 }
             }
-            // Magnitude A
             foreach ($vecA as $val) $normA += $val * $val;
-            // Magnitude B
             foreach ($vecB as $val) $normB += $val * $val;
 
-            if ($normA == 0 || $normB == 0) return 0;
-            return $dot / (sqrt($normA) * sqrt($normB));
+            return ($normA == 0 || $normB == 0) ? 0 : $dot / (sqrt($normA) * sqrt($normB));
         }
 
-        // 5. Masukkan nilai similarity ke array data artikel
+        // Update nilai similarity
         foreach ($articlesData as $idx => &$article) {
             if (isset($documents[$idx])) {
                 $score = hitungCosine($documents[$idx], $keywordVector);
                 $article['similarity'] = $score;
             }
         }
-        unset($article); // Hapus referensi
+        unset($article);
     }
 
+    // Sorting dari terbesar ke terkecil
     $similarities = array_column($articlesData, 'similarity');
     array_multisort($similarities, SORT_DESC, SORT_NUMERIC, $articlesData);
 
+    // --- TAMPILAN HTML ---
     echo "
-<style>
-    body { font-family: Arial, sans-serif; background: #f5f7fa; }
-    .container { max-width: 1200px; margin: 30px auto; background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
-    h2 { text-align: center; margin-bottom: 20px; color: #333; }
-    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-    th, td { padding: 12px; font-size: 14px; text-align: center; border-bottom: 1px solid #ddd; }
-    th { background: #4f46e5; color: #fff; }
-    td { vertical-align: middle; }
-    tr:hover { background: #f1f5f9; }
-    .badge { padding: 4px 10px; border-radius: 20px; font-size: 13px; color: #fff; background: #22c55e; display: inline-block; }
-    .btn, .btn-back { display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: 600; transition: 0.3s; }
-    .btn { background: #2563eb; color: #fff; }
-    .btn:hover { background: #1e40af; }
-    .btn-back { padding: 10px 20px; background: #64748b; color: #fff; margin-bottom: 20px; border-radius: 8px; font-size: 14px; }
-    .btn-back:hover { background: #475569; }
-</style>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #f1f5f9; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        h2 { text-align: center; margin-bottom: 25px; color: #1e293b; font-weight: 700; }
+        
+        /* Tombol Kembali (Di Bawah) */
+        .btn-back {
+            display: inline-flex; align-items: center; padding: 12px 25px;
+            background-color: #64748b; color: white; text-decoration: none;
+            border-radius: 8px; font-size: 14px; font-weight: 600;
+            transition: background 0.3s; margin-top: 20px;
+        }
+        .btn-back:hover { background-color: #475569; }
 
-<div class='container'>
-    <h2>🔍 Search Results</h2>
-    <table>
-        <tr>
-            <th>Judul Artikel</th>
-            <th>Penulis</th>
-            <th>Jurnal</th>
-            <th>Tahun</th>
-            <th>Sitasi</th>
-            <th>Link</th>
-            <th>Similarity</th>
-        </tr>
-";
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; background: white; }
+        th { background: #2563eb; color: #fff; padding: 15px; font-size: 14px; text-align: left; font-weight: 600; }
+        td { padding: 12px 15px; font-size: 14px; border-bottom: 1px solid #e2e8f0; color: #334155; vertical-align: middle; }
+        .center { text-align: center; }
+        tr:hover { background: #f8fafc; }
+        
+        .badge { padding: 6px 12px; border-radius: 50px; font-size: 12px; font-weight: bold; color: #fff; background: #10b981; }
+        .btn-link { padding: 6px 14px; background: #3b82f6; color: #fff; border-radius: 6px; text-decoration: none; font-size: 12px; font-weight: 600; display: inline-block; }
+        .btn-link:hover { background: #2563eb; }
+    </style>
+
+    <div class='container'>
+        <h2>Hasil Pencarian</h2>
+        
+        <table>
+            <tr>
+                <th>Judul Artikel</th>
+                <th>Penulis</th>
+                <th>Jurnal</th>
+                <th class='center'>Tahun</th>
+                <th class='center'>Sitasi</th>
+                <th class='center'>Link</th>
+                <th class='center'>Similarity</th>
+            </tr>
+    ";
 
     foreach ($articlesData as $row) {
         echo "<tr>";
@@ -206,32 +224,23 @@ if (isset($data['articles']) && is_array($data['articles'])) {
         echo "<td class='center'>" . htmlspecialchars($row['date']) . "</td>";
         echo "<td class='center'>" . (int) $row['citations'] . "</td>";
 
-        // Link jurnal
-        if ($row['journal_link'] !== '-') {
-            echo 
-            "<td class='center'>
-                <a class='btn' href='" . htmlspecialchars($row['journal_link']) . "' target='_blank'>
-                    Buka
-                </a>
-            </td>";
+        if ($row['journal_link'] !== '-' && $row['journal_link'] !== '#') {
+            echo "<td class='center'><a class='btn-link' href='" . htmlspecialchars($row['journal_link']) . "' target='_blank'>Buka</a></td>";
         } else {
             echo "<td class='center'>-</td>";
         }
 
-        // Similarity
-        echo "<td class='center'>
-            <span class='badge'>" . number_format((float) $row['similarity'], 4) . "</span>
-            </td>";
+        echo "<td class='center'><span class='badge'>" . number_format((float) $row['similarity'], 4) . "</span></td>";
         echo "</tr>";
     }
 
     echo "
-    </table>
-
-    <div style='margin-top: 20px; text-align: center;'>
+        </table>
+        
+        <div style='margin-top: 20px; text-align: center;'>
             <a href='index.php' class='btn-back'>Kembali ke Pencarian</a>
+        </div>
     </div>
-</div>
-";
+    ";
 }
 ?>

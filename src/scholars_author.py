@@ -4,7 +4,6 @@ from serpapi import GoogleSearch
 from config import SERPAPI_API
 
 penulis = sys.argv[1]
-# print(penulis)
 params = {
   "engine": "google_scholar",
   "q": penulis,
